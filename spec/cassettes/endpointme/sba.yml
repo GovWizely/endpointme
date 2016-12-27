@@ -1,0 +1,1795 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3.amazonaws.com/trade-events/sba.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - fOPx9+faSusjTxcPZgPRjY2C72gx4Mosy8nrUTjPPuqouX9XXBFwpNAaXri/vHW20ZZ0k1czSXk=
+      X-Amz-Request-Id:
+      - 49783AE69524DFF6
+      Date:
+      - Tue, 28 Mar 2017 23:22:21 GMT
+      Last-Modified:
+      - Tue, 28 Mar 2017 22:28:25 GMT
+      Etag:
+      - '"e93e3cc7c06ec75f4573524247e475a4"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '142718'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: '[{"body": "<p>Join the U.S. Small Business Administration South Florida
+        District Office as we participate in the American Express Grow GlobalSM, a
+        program that brings global trade experts, exporting officials and business
+        leaders together to help U.S. small and middle market companies expand globally.</p>\n<p>The
+        American Express Grow Global program brings together global trade experts,
+        exporting officials and business leaders to help U.S. businesses expand internationally.
+        As part of the program, U.S.\u2013based small and mid-sized businesses are
+        invited to a free event. Attendees will gain insights from successful exporters
+        and top industry experts and will have the opportunity to receive mentorship
+        on a range of exporting topics.</p>\n<p>Since American Express launched Grow
+        Global in 2015, the program has traveled from coast to coast, helping businesses
+        learn and explore available tools for success at any stage of their exporting
+        journey. The Miami event will emphasize tips and tricks for a successful digital
+        path to foreign sales and will include sessions on local, state and federal
+        resources, international payments and developing your long-term exporting
+        vision.</p>\n<p>Through the International Trade Administration\u2019s Strategic
+        Partnership Program, American Express Grow Global collaborates with the U.S.
+        Department of Commerce to increase awareness of the economic benefits of trade
+        and educate businesses about exporting as a job creation and growth strategy.</p>\n<p>What
+        to Expect:<br />\n\u2022A FREE day long event with interactive workshops,
+        providing education and guidance on how to expand your business internationally.<br
+        />\n\u2022A Global Connections portion where business owners will have the
+        opportunity to schedule meetings with global industry experts, commercial
+        officers and international buyers to help build relationships towards success.<br
+        />\n\u2022An EXPO portion offered to our key Partners, like you to help build
+        a successful event.</p>\n<p>Don\u2019t miss the chance to attend this event
+        and learn about the potential to expand your business\u2019s footprint internationally.</p>\n",
+        "fee": 0.0, "event_type": "SBA Participating", "end_date": "2017-03-29", "contacts":
+        [{"registration_email": "", "contact_name": "Lourdes Martin-Rosa", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:00:00", "event_cancelled": "Scheduled to occur", "node_title": "Grow Global
+        with American Express OPEN", "venues": [{"province": "FL", "city": "Miami",
+        "location_name": "JW Marriott Miami ", "country": "United States", "street":
+        "1109 Brickell Avenue", "postal_code": "33131"}], "time_zone": "America/New_York",
+        "end_time": "16:30:00", "event_date": "2017-03-29 08:00:00 to 2017-03-29 16:30:00",
+        "registration_website": "https://www.americanexpress.com/us/small-business/openforum/event-registration/?event_id=252889&campaign_id=70112000000oOwP",
+        "start_date": "2017-03-29"}, {"body": "<p>The NASBITE International Annual
+        Conference is hosted in a different city each year.  This event attracts exporting
+        companies, export service providers, leading experts in international trade
+        (e.g., trade educators/trainers, export support agencies), and many of the
+        best small business export consultants in North America. The conference showcases
+        expert speakers and workshops on a wide range of export-related topics that
+        will help companies drive export growth.  Some of the topics offered this
+        year are shown below:     &lt;p&gt;<br />\n       New Export Market Opportunities
+        &lt;p&gt;<br />\n            \u00b7 NAFTA + 3 Free Trade Agreements &lt;p&gt;<br
+        />\n            \u00b7 Business Growth Sectors and Trade&lt;p&gt; Opportunities
+        in Latin America: A Panel Discussion &lt;p&gt;<br />\n            \u00b7 Trading
+        With Africa: Why and How? &lt;p&gt;</p>\n<p>       Securing Export Sales &lt;p&gt;<br
+        />\n            \u00b7 Market-driven Export Pricing Strategies &lt;p&gt;<br
+        />\n            \u00b7 Developing International Financial Projections &lt;p&gt;<br
+        />\n            \u00b7 Managing the Cost of Foreign Exchange Risk: Options
+        and Forward Contract Pricing &lt;p&gt;</p>\n<p>      Export Market Entry Decisions
+        and Strategies &lt;p&gt;<br />\n            \u00b7 The Practical Side of International
+        E-Commerce &lt;p&gt;<br />\n            \u00b7 Market Selection Methodology
+        Using Trade Flow Data and Country Macro-Indicators &lt;p&gt;<br />\n            \u00b7
+        Foreign Market Selection: Best Practices From the Florida SBDC Network &lt;p&gt;</p>\n<p>      Export
+        Compliance &lt;p&gt;<br />\n            \u00b7 How to Prepare For an Import/Export
+        Audit &lt;p&gt;<br />\n            \u00b7 US Economic and Trade Sanctions:
+        An Introduction &lt;p&gt;</p>\n<p>     Resources for Exporters &lt;p&gt;<br
+        />\n            \u00b7 The SBA: Small, Bold, and Accessible for US Exporters
+        &lt;p&gt;<br />\n            \u00b7 Small Business Network of the Americas
+        - Partnership Program&lt;p&gt;<br />\n            \u00b7 The World Trade Organization
+        Trade Facilitation Agreement: Benefits for Small Businesses</p>\n", "fee":
+        695.0, "event_type": "SBA Participating", "end_date": "2017-03-31", "contacts":
+        [{"registration_email": "lisa.christie@nasbite.org", "contact_name": "", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:00:00", "event_cancelled": "Scheduled to occur", "node_title": "Spokane
+        - NASBITE International Conference &amp; Small Business Export Summit", "venues":
+        [{"province": "WA", "city": "Spokane", "location_name": "The Historic Davenport
+        Hotel", "country": "United States", "street": "10 S Post Street", "postal_code":
+        "99201"}], "time_zone": "America/Los_Angeles", "end_time": "17:00:00", "event_date":
+        "2017-03-29 08:00:00 to 2017-03-31 17:00:00", "registration_website": "http://nasbite.org/wp-content/uploads/2016/12/RegistrationForm_NASBITE17_2.2.17.pdf",
+        "start_date": "2017-03-29"}, {"body": "<p>Outstanding exporters from across
+        the country will share details of their export success, insights on best practices
+        and keys for export growth. &lt;p&gt;<br />\nAttendees will have the opportunity
+        to learn from some of the best small business exporters in the nation, as
+        well as exchange and share ideas. This national event is geared for small
+        and medium sized business pursuing export growth. Learn more about the event
+        at <a href=\"http://www.exportsummit.org\">www.exportsummit.org</a></p>\n",
+        "fee": 150.0, "event_type": "Resource Partner", "end_date": "2017-03-29",
+        "contacts": [{"registration_email": "", "contact_name": "", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "08:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Spokane - World Trade
+        Day &amp; National Small Business Exporters Summit ", "venues": [{"province":
+        "WA", "city": "Spokane", "location_name": "Spokane Convention Center", "country":
+        "United States", "street": "334 West Spokane Falls Blvd.", "postal_code":
+        "99201"}], "time_zone": "America/Los_Angeles", "end_time": "17:00:00", "event_date":
+        "2017-03-29 08:00:00 to 2017-03-29 17:00:00", "registration_website": "http://r20.rs6.net/tn.jsp?t=wx4optzab.0.0.fxi8ttbab.0&id=preview&r=3&p=https%3A//exportsummit.org/",
+        "start_date": "2017-03-29"}, {"body": "<p>The U.S. Small Business Administration
+        (SBA) hosts a free informational seminar the 4th Thursday of the month for
+        startup or existing small businesses at the Pharr Memorial Library in collaboration
+        with the Pharr Economic Development Corporation (EDC).</p>\n<p>Come learn
+        about SBA loan eligibility, current popular SBA loans, and how you can receive
+        free technical assistance from SCORE, SBDC, and our many other local resources.</p>\n<p>For
+        more information or for reservations, please call Reynaldo D. Vasquez at (956)
+        427-8533 ext. 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-03-30", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": "(956)472-8533 ext.
+        300"}], "start_time": "10:00:00", "event_cancelled": "Scheduled to occur",
+        "node_title": "SBA FREE Informational Seminar at Pharr Memorial Library",
+        "venues": [{"province": "TX", "city": "Pharr", "location_name": "Pharr Memorial
+        Library", "country": "United States", "street": "121 E. Cherokee Ave.<br />2nd
+        Floor, North Star Room", "postal_code": "78577"}], "time_zone": "America/Chicago",
+        "end_time": "11:30:00", "event_date": "2017-03-30 10:00:00 to 2017-03-30 11:30:00",
+        "registration_website": "", "start_date": "2017-03-30"}, {"body": "<p>During
+        this special training, companies will receive in-depth information on how
+        to export legally marked and approved devices. In addition to application
+        process for export certificates, permits, as well as steps in submitting simple
+        notifications.</p>\n", "fee": 95.0, "event_type": "Resource Partner", "end_date":
+        "2017-04-04", "contacts": [{"registration_email": "", "contact_name": "",
+        "agency": "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:00:00", "event_cancelled": "Scheduled to occur", "node_title": "Exporting
+        Medical Devices", "venues": [{"province": "OH", "city": "Cleveland", "location_name":
+        "CSU Downtown Cleveland Campus", "country": "United States", "street": "1717
+        Euclid Avenue", "postal_code": "44115"}], "time_zone": "America/New_York",
+        "end_time": "14:30:00", "event_date": "2017-04-04 08:00:00 to 2017-04-04 14:30:00",
+        "registration_website": "http://www.campusce.net/csubusiness/course/course.aspx?C=649&pc=90&mc=&sc=",
+        "start_date": "2017-04-04"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-04-04", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-04-04 08:30:00 to 2017-04-04 11:00:00", "registration_website": "",
+        "start_date": "2017-04-04"}, {"body": "<p>Exporting Workshop Presented by
+        the SBA<br />\nSelling outside the U.S. is like developing a new market:  it
+        requires hard work and a plan.  This seminar will paint a vision of what you
+        can do and highlight the tools, resources and people that can help you achieve
+        that vision.<br />\nRegistration Required:  FREE \u2013 Seating is Limited
+        \u2013 Register at: <a href=\"http://www.FLWBC.org\">www.FLWBC.org</a> \u2013
+        Events Tab<br />\nSponsored by the Florida Women\u2019s Business Center.  For
+        further information call: 561-276-8763</p>\n", "fee": 0.0, "event_type": "Resource
+        Partner", "end_date": "2017-04-04", "contacts": [{"registration_email": "gail-lee@flwbc.org",
+        "contact_name": "Gail-Lee McDermott", "agency": "Small Business Administration",
+        "registration_phone": "5612653790"}], "start_time": "09:30:00", "event_cancelled":
+        "Scheduled to occur", "node_title": "Exporting", "venues": [{"province": "FL",
+        "city": "Delray Beach", "location_name": "TED Center", "country": "United
+        States", "street": "401 West Atlantic Avenue", "postal_code": "33444"}], "time_zone":
+        "America/New_York", "end_time": "11:30:00", "event_date": "2017-04-04 09:30:00
+        to 2017-04-04 11:30:00", "registration_website": "http://www.flwbc.org", "start_date":
+        "2017-04-04"}, {"body": "<p>The SBA Baltimore District Office is pleased to
+        offer Maryland companies a seminar on export trade finance.   If your business
+        is currently exporting or looking to export as a way to grow revenues, SBA
+        encourages you to attend this informative seminar.   This session will cover
+        methods of trade finance and methods of risk mitigation and creative uses
+        of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-04-04", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-04-04
+        10:00:00 to 2017-04-04 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28337810153",
+        "start_date": "2017-04-04"}, {"body": "<p>Attention SBA and Export-Import
+        Bank lenders!</p>\n<p>The 10th Annual SBA Export Lender\u2019s Roundtable
+        brings together the trade and export finance community for a day of discussion
+        and networking with SBA\u2019s leaders and industry leading lenders.</p>\n<p>Covering
+        important topics surrounding SBA\u2019s International Finance Programs and
+        the trade and export finance space, the roundtable will incorporate a substantive
+        and interactive discussion among all participants focused on financing techniques,
+        innovations and disruptors, as well as best practices.</p>\n<p>This is an
+        ideal environment for lenders, trade financiers and trade industry professionals
+        to meet and learn about SBA\u2019s International Trade Finance Programs, which
+        are designed to help small businesses throughout their export development
+        cycle, from developing new markets, to financing export transactions, to expanding
+        production capacity due to exporting success. Please join us to learn how
+        you can support the most forward and competitive businesses in your community
+        with SBA financing options!</p>\n<p>Please note this event is specifically
+        for lenders.</p>\n", "fee": 0.0, "event_type": "SBA Sponsored", "end_date":
+        "2017-04-05", "contacts": [{"registration_email": "International@SBA.gov",
+        "contact_name": "", "agency": "Small Business Administration", "registration_phone":
+        ""}], "start_time": "08:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "10th Annual SBA Export Lenders&#039; Roundtable", "venues": [{"province":
+        "DC", "city": "Washington", "location_name": "Ronald Reagan Building and International
+        Trade Center", "country": "United States", "street": "1300 Pennsylvania Avenue
+        Northwest", "postal_code": "20004"}], "time_zone": "America/New_York", "end_time":
+        "12:00:00", "event_date": "2017-04-05 08:30:00 to 2017-04-05 12:00:00", "registration_website":
+        "https://www.eventbrite.com/e/10th-annual-sba-export-lenders-roundtable-tickets-31496335387",
+        "start_date": "2017-04-05"}, {"body": "<p>Come meet a representative from
+        the SBA to discuss government contracting, certifications, financing and exporting
+        at the NIA Center on the first Wednesday of each month from 12:30 pm to 4:30
+        pm.  For an appointment, email <a href=\"mailto:robert.coffey@sba.gov\">robert.coffey@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-04-05", "contacts":
+        [{"registration_email": "", "contact_name": "Robert Coffey", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "12:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Meet the SBA at the
+        NIA Center ", "venues": [{"province": "KY", "city": "Louisville", "location_name":
+        "NIA Center", "country": "United States", "street": "2900 West Broadway",
+        "postal_code": "40210"}], "time_zone": "America/New_York", "end_time": "16:30:00",
+        "event_date": "2017-04-05 12:30:00 to 2017-04-05 16:30:00", "registration_website":
+        "", "start_date": "2017-04-05"}, {"body": "<p>Visit event website for more
+        details: <a href=\"http://mexport.org/\">http://mexport.org/</a></p>\n<p>SBA&#039;s
+        District Director Ruben Garcia will be providing opening remarks and District
+        International Trade Officer Cynthia Harris will be working an exhibit table
+        at this event. SBA\u2019s participation in this event is not an endorsement
+        of the views, opinions, products or services of any other person or entity.</p>\n",
+        "fee": 0.0, "event_type": "SBA Participating", "end_date": "2017-04-06", "contacts":
+        [{"registration_email": "", "contact_name": "Otay Mesa Chamber of Commerce",
+        "agency": "Small Business Administration", "registration_phone": ""}], "start_time":
+        "10:00:00", "event_cancelled": "Scheduled to occur", "node_title": "MEXPORT
+        Industrial Trade Show", "venues": [{"province": "CA", "city": " San Diego",
+        "location_name": "", "country": "United States", "street": "1855 Dornoch Ct",
+        "postal_code": "92154"}], "time_zone": "America/Los_Angeles", "end_time":
+        "16:30:00", "event_date": "2017-04-06 10:00:00 to 2017-04-06 16:30:00", "registration_website":
+        "http://mexport.org/attendes/", "start_date": "2017-04-06"}, {"body": "<p>Small
+        businesses looking to increase sales and profit, reduce dependence on the
+        domestic market and stabilize seasonal fluctuations should consider importing
+        and exporting.  With nearly 96 percent of consumers living outside the U.S.
+        and two-thirds of the world\u2019s purchasing power in foreign countries,
+        opportunities await U.S. small business.</p>\n<p>Go where the customers are.
+        There is significant opportunity for small businesses to profit through importing
+        and exporting operations.</p>\n<p>Do you have what it takes to become a successful
+        international business? Are you ready to make international sales? Importing
+        / Exporting offers great opportunities but requires preparation and planning.</p>\n<p>This
+        is a two part series taught by international experts from the Georgia Small
+        Business Development Center, a resource partner of the SBA.</p>\n<p>Module
+        I will aid you in assessing your readiness, understanding what you need to
+        know and consider before pursuing an international strategy.<br />\nModule
+        II will introduce you to those topics needed to develop and implement your
+        strategy: international pricing and costing issues, proforma export quotations,
+        payment terms, and risk assessment.</p>\n<p>The workshops will help you gain
+        the knowledge to develop and implement an international  plan. You will become
+        acquainted with the key components of an effective import / export plan.  The
+        instructors will raise questions you should answer to complete your plan and
+        provide the resources to help you answer those questions.</p>\n<p>    * organizational
+        and product readiness,<br />\n    * market research,<br />\n    * guidance
+        for developing your strategy and marketing plan,<br />\n    * promoting your
+        products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-04-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-04-10
+        09:45:00 to 2017-04-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-04-10"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-04-18", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-04-18 08:30:00 to 2017-04-18 11:00:00", "registration_website": "",
+        "start_date": "2017-04-18"}, {"body": "<p>Whether you&#039;re new to Exporting
+        or new to a market, are you aware of the resources and services available
+        to help you successfully sell into foreign markets? Have you asked the following
+        questions?</p>\n<p>\u2022Why export when I am already successful selling domestically?<br
+        />\n\u2022It&#039;s a big world, what country do I choose to business with?<br
+        />\n\u2022How do I know this is a legitimate buyer and sales opportunity?<br
+        />\n\u2022How do I get paid in a timely manner?<br />\n\u2022I need greater
+        capacity, what are my financing options?<br />\n\u2022Is there a way to mitigate
+        risk and ensure payment?<br />\nPresenters:<br />\nLee Gibbs, U.S. Small Business
+        Administration \u2013Office of Int\u2019l Trade<br />\nJohn Brislin, Export-Import
+        Bank of the U.S.<br />\nDebbie Franklin, U.S. Commercial Service-AK </p>\n<p>This
+        event is free and open to the public. The event will also be available by
+        webinar for those individuals from remote areas. Contact Nelida Irvine for
+        login instructions at <a href=\"mailto:nelida.Irvine@sba.gov\">nelida.Irvine@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-04-18", "contacts":
+        [{"registration_email": "", "contact_name": "Nelida Irvine", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "09:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Go Global, Get Going,
+        Get Paid - Fairbanks", "venues": [{"province": "AK", "city": "Fairbanks",
+        "location_name": "Association of General Contractors (AGC)", "country": "United
+        States", "street": "3750 Bonita Street", "postal_code": "99701"}], "time_zone":
+        "America/Anchorage", "end_time": "11:00:00", "event_date": "2017-04-18 09:30:00
+        to 2017-04-18 11:00:00", "registration_website": "https://go-global-fairbanks.eventbrite.com",
+        "start_date": "2017-04-18"}, {"body": "<p>Seminar on-site or via live-stream
+        webinar.</p>\n<p>This all-day seminar will help bring your international trade
+        program into full compliance with U.S. export/import regulations. Review how
+        you can eliminate incorrect valuation on commercial invoices, EEIs and other
+        documents used in an effort to benefit the \u201cforeign\u201d customer. Assess
+        the correct way to handle valuation on drop shipments, warranties, repairs
+        and replacements for customer purposes. Finally, you\u2019ll round things
+        off by reviewing the FCPA, as well as the Successor Liability and how these
+        can affect you. </p>\n<p>On-site: $150 Early bird registration until April
+        5. $195 thereafter</p>\n<p>Webinar: $125 Early bird registration until April
+        5. $150 April 6-10</p>\n<p>Presented by SME Mike Allocca. Approved NASBITE
+        International CGBP recertification program; earn six CEUs towards annual recertification!</p>\n",
+        "fee": 150.0, "event_type": "Resource Partner", "end_date": "2017-04-20",
+        "contacts": [{"registration_email": "illinoissbdc@clcillinois.edu", "contact_name":
+        "Nicole Massey-Pratt", "agency": "Small Business Administration", "registration_phone":
+        "847-543-2033"}], "start_time": "08:30:00", "event_cancelled": "Scheduled
+        to occur", "node_title": "Export Compliance 201: Next Step to Reduce Risk,
+        Cut Costs and Increase Profits", "venues": [{"province": "IL", "city": "Grayslake",
+        "location_name": "University Center of Lake County", "country": "United States",
+        "street": "1200 University Center Drive<br />Room 241", "postal_code": "60030"}],
+        "time_zone": "America/Chicago", "end_time": "16:30:00", "event_date": "2017-04-20
+        08:30:00 to 2017-04-20 16:30:00", "registration_website": "https://exportcomp201.eventbrite.com",
+        "start_date": "2017-04-20"}, {"body": "<p>Whether you&#039;re new to Exporting
+        or new to a market, are you aware of the resources and services available
+        to help you successfully sell into foreign markets? Have you asked the following
+        questions?</p>\n<p>\u2022Why export when I am already successful selling domestically?<br
+        />\n\u2022It&#039;s a big world, what country do I choose to business with?<br
+        />\n\u2022How do I know this is a legitimate buyer and sales opportunity?<br
+        />\n\u2022How do I get paid in a timely manner?<br />\n\u2022I need greater
+        capacity, what are my financing options?<br />\n\u2022Is there a way to mitigate
+        risk and ensure payment?<br />\nPresenters:<br />\nLee Gibbs, U.S. Small Business
+        Administration \u2013Office of Int\u2019l Trade<br />\nJohn Brislin, Export-Import
+        Bank of the U.S.<br />\nDebbie Franklin, U.S. Commercial Service-AK </p>\n<p>This
+        event is free and open to the public. The event will also be available by
+        webinar for those individuals from remote areas. Contact Nelida Irvine for
+        login instructions at <a href=\"mailto:nelida.Irvine@sba.gov\">nelida.Irvine@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-04-20", "contacts":
+        [{"registration_email": "", "contact_name": "Nelida Irvine", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "09:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Go GLobal, Get Going,
+        Get Paid - Juneau", "venues": [{"province": "AK", "city": "Juneau", "location_name":
+        "Northrim Bank / Conference Room", "country": "United States", "street": "2094
+        Jordan Avenue, 2nd Floor", "postal_code": "99801"}], "time_zone": "America/Anchorage",
+        "end_time": "11:00:00", "event_date": "2017-04-20 09:30:00 to 2017-04-20 11:00:00",
+        "registration_website": "https://go-global-juneau.eventbrite.com", "start_date":
+        "2017-04-20"}, {"body": "<p>Small businesses looking to increase sales and
+        profit, reduce dependence on the domestic market and stabilize seasonal fluctuations
+        should consider importing and exporting.  </p>\n<p>With nearly 96 percent
+        of consumers living outside the U.S. and two-thirds of the world\u2019s purchasing
+        power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy. </p>\n<p>Module II will introduce you to those
+        topics needed to develop and implement your strategy: international pricing
+        and costing issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-04-21", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-04-21
+        09:30:00 to 2017-04-21 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=99FD2C71EA2DD0D934D9B1327C71DB88.worker_registrant?llr=an8uarcab&oeidk=a07edo04tev539a8cd0",
+        "start_date": "2017-04-21"}, {"body": "<p>Exporting Workshop Presented by
+        the SBA<br />\nSelling outside the U.S. is like developing a new market:  it
+        requires hard work and a plan.  This seminar will paint a vision of what you
+        can do and highlight the tools, resources and people that can help you achieve
+        that vision.<br />\nRegistration Required:  FREE \u2013 Seating is Limited
+        \u2013 Register at: <a href=\"http://www.FLWBC.org\">www.FLWBC.org</a> \u2013
+        Events Tab<br />\nSponsored by the Florida Women\u2019s Business Center.  For
+        further information call: 561-276-8763</p>\n", "fee": 0.0, "event_type": "Resource
+        Partner", "end_date": "2017-04-21", "contacts": [{"registration_email": "gail-lee@flwbc.org",
+        "contact_name": "Gail-Lee McDermott", "agency": "Small Business Administration",
+        "registration_phone": "5612653790"}], "start_time": "11:00:00", "event_cancelled":
+        "Scheduled to occur", "node_title": "Exporting", "venues": [{"province": "FL",
+        "city": "Hollywood", "location_name": "Hollywood Chamber of Commerce", "country":
+        "United States", "street": "330 N Federal Hwy", "postal_code": "33020"}],
+        "time_zone": "America/New_York", "end_time": "13:00:00", "event_date": "2017-04-21
+        11:00:00 to 2017-04-21 13:00:00", "registration_website": "http://www.flwbc.org",
+        "start_date": "2017-04-21"}, {"body": "<p>Make plans to attend this workshop
+        to take your business to the next level in the global marketplace.</p>\n<p>We
+        will have speakers covering topics such as:<br />\n----------------------------------------------------------------<br
+        />\n- Export financing and export credit insurance with Ex-Im Bank<br />\n-
+        Logistics &amp; freight forwarding, and export compliance<br />\n- Legal issues
+        and International<br />\n- Traffic in Arms Regulations (ITAR)<br />\n- Export
+        assistance available through the Tennessee Small Business Development Center</p>\n",
+        "fee": 0.0, "event_type": "Resource Partner", "end_date": "2017-04-27", "contacts":
+        [{"registration_email": "", "contact_name": "", "agency": "Small Business
+        Administration", "registration_phone": "865-483-2668"}], "start_time": "09:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Expand your business
+        in the global marketplace", "venues": [{"province": "TN", "city": "Oak Ridge",
+        "location_name": "Roane State Community College", "country": "United States",
+        "street": "1400 Oak Ridge Turnpike", "postal_code": "37830"}], "time_zone":
+        "America/New_York", "end_time": "12:00:00", "event_date": "2017-04-27 09:00:00
+        to 2017-04-27 12:00:00", "registration_website": "https://clients.tsbdc.org/workshop.aspx?ekey=22370041",
+        "start_date": "2017-04-27"}, {"body": "<p>International trade has been at
+        the forefront of President Trump\u2019s agenda, and yet the future of trade
+        policy across a number of areas still remains somewhat unclear.\u00a0As we
+        approach the 100-day mark of the Trump Administration, certain indicators,
+        such as key trade appointments, budget appropriations, development of the
+        trade policy agenda and other statements are all helping us to better understand
+        the outlook for international trade in the coming years.<br />\nJoin us for
+        this symposium, which will discuss possible upcoming shifts in trade policy,
+        including trade-tangential issues, such as immigration, foreign investment
+        and CFIUS reviews.\u00a0Specifically, the forum will assess the future of
+        export controls, economic sanctions, the Foreign Corrupt Practices Act, NAFTA
+        and free trade policy, tariffs and the proposed border adjustment tax, regulatory
+        enforcement and more.<br />\nJoin us to hear from legal experts and industry
+        practitioners who will provide practical guidance on preparing global business
+        operations for the future.<br />\nSpeakers include:<br />\nNicole Aandahl,
+        Senior Director and Counsel, Legal, Ethics and Export Compliance \u2014 QinetiQ
+        North America; Eric Sitarchuk, Partner \u2014 Morgan Lewis; Carl Valenstein,
+        Partner \u2014 Morgan Lewis; additional speakers to be announced shortly.</p>\n",
+        "fee": 50.0, "event_type": "Resource Partner", "end_date": "2017-04-28", "contacts":
+        [{"registration_email": "", "contact_name": "", "agency": "Small Business
+        Administration", "registration_phone": ""}], "start_time": "09:00:00", "event_cancelled":
+        "Scheduled to occur", "node_title": "Trump on Trade, Investment and Immigration:\u00a0The
+        First 100 Days and Beyond", "venues": [{"province": "MA", "city": "Boston",
+        "location_name": "Morgan Lewis", "country": "United States", "street": "1
+        Federal Street, 13th Floor", "postal_code": "02110"}], "time_zone": "America/New_York",
+        "end_time": "13:00:00", "event_date": "2017-04-28 09:00:00 to 2017-04-28 13:00:00",
+        "registration_website": "http://www.mass.gov/export", "start_date": "2017-04-28"},
+        {"body": "<p>The City of Brownsville and the U.S. Small Business Administration\u2019s
+        Lower Rio Grande Valley District Office (LRGVDO) signed a Strategic Alliance
+        Memorandum (SAM) to encourage entrepreneurship and economic empowerment through
+        increased collaboration on entrepreneurial and financial education for local
+        veterans as well as small business owners.</p>\n<p>In support of the SAM,
+        the LRGVDO has scheduled an Economic Development Specialist (EDS) at the Brownsville
+        Veterans Resource Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to
+        provide small business programs and services for local veterans.</p>\n<p>For
+        more information contact Reynaldo D. Vasquez at 956-427-8533 x 300 or email
+        at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-05-02", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-05-02 08:30:00 to 2017-05-02 11:00:00", "registration_website": "",
+        "start_date": "2017-05-02"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-05-02", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-05-02
+        10:00:00 to 2017-05-02 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28337938537",
+        "start_date": "2017-05-02"}, {"body": "<p>Come meet a representative from
+        the SBA to discuss government contracting, certifications, financing and exporting
+        at the NIA Center on the first Wednesday of each month from 12:30 pm to 4:30
+        pm.  For an appointment, email <a href=\"mailto:robert.coffey@sba.gov\">robert.coffey@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-05-03", "contacts":
+        [{"registration_email": "", "contact_name": "Robert Coffey", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "12:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Meet the SBA at the
+        NIA Center ", "venues": [{"province": "KY", "city": "Louisville", "location_name":
+        "NIA Center", "country": "United States", "street": "2900 West Broadway",
+        "postal_code": "40210"}], "time_zone": "America/New_York", "end_time": "16:30:00",
+        "event_date": "2017-05-03 12:30:00 to 2017-05-03 16:30:00", "registration_website":
+        "", "start_date": "2017-05-03"}, {"body": "<p>Small businesses looking to
+        increase sales and profit, reduce dependence on the domestic market and stabilize
+        seasonal fluctuations should consider importing and exporting.  With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-05-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-05-10
+        09:45:00 to 2017-05-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-05-10"}, {"body": "<p>If you are interested in obtaining
+        an SBA loan or if you have questions concerning working capital for your small
+        business, Glenn Clevenger, the Branch Manager of the Cincinnati SBA office
+        will be on hand to answer all your questions. Along with Alex Kohls the Senior
+        Area Manager of the Columbus District office of the SBA, he has the knowledge
+        to help you will all your export financing needs for your business.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-05-11", "contacts":
+        [{"registration_email": "Gwendolyn.List@sba.gov", "contact_name": "Gwendolyn
+        List", "agency": "Small Business Administration", "registration_phone": "513
+        684 2814 200"}], "start_time": "11:00:00", "event_cancelled": "Scheduled to
+        occur", "node_title": "Capital and Export, Import Financing", "venues": [{"province":
+        "OH", "city": "Xenia", "location_name": "Greene County Public Library", "country":
+        "United States", "street": "76 E. Market Street", "postal_code": "45385"}],
+        "time_zone": "America/New_York", "end_time": "12:30:00", "event_date": "2017-05-11
+        11:00:00 to 2017-05-11 12:30:00", "registration_website": "", "start_date":
+        "2017-05-11"}, {"body": "<p>This one day conference features information about
+        opportunities, strategies, and lessons learned for those wanting to do business
+        with nations located in Sub-Saharan Africa.</p>\n<p>More information and registration
+        is available @ <a href=\"https://kelley.iu.edu/IIB/ProgramsandIntitiatives/page52784.html\">https://kelley.iu.edu/IIB/ProgramsandIntitiatives/page52784.html</a></p>\n",
+        "fee": 20.0, "event_type": "SBA Participating", "end_date": "2017-05-12",
+        "contacts": [{"registration_email": "", "contact_name": "", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "09:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Doing Business In
+        &amp; With Sub-Saharan Africa", "venues": [{"province": "IN", "city": "Indianapolis",
+        "location_name": "IUPUI", "country": "United States", "street": "420 University
+        Blvd.", "postal_code": ""}], "time_zone": "America/New_York", "end_time":
+        "15:00:00", "event_date": "2017-05-12 09:00:00 to 2017-05-12 15:00:00", "registration_website":
+        "https://kelley.iu.edu/IIB/ProgramsandIntitiatives/page52784.html", "start_date":
+        "2017-05-12"}, {"body": "<p>Small businesses looking to increase sales and
+        profit, reduce dependence on the domestic market and stabilize seasonal fluctuations
+        should consider importing and exporting.  </p>\n<p>With nearly 96 percent
+        of consumers living outside the U.S. and two-thirds of the world\u2019s purchasing
+        power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-05-12", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-05-12
+        09:30:00 to 2017-05-12 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=91F9EF8FCEFED462640A5FCE0B512C09.worker_registrant?llr=an8uarcab&oeidk=a07edo07c7g3428ce39",
+        "start_date": "2017-05-12"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-05-16", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-05-16 08:30:00 to 2017-05-16 11:00:00", "registration_website": "",
+        "start_date": "2017-05-16"}, {"body": "<p>Attend this important training to
+        protect your Intellectual Property</p>\n<p>Topics Include</p>\n<p>\u2022         Protecting
+        IP<br />\n\u2022         IP Rights<br />\n\u2022         Leverage IP to Grow
+        exports<br />\n\u2022         Policy and effective approaches<br />\n\u2022         Resolving
+        Disputes<br />\n\u2022         Treaties and Regulations</p>\n", "fee": 95.0,
+        "event_type": "Resource Partner", "end_date": "2017-05-18", "contacts": [{"registration_email":
+        "", "contact_name": "", "agency": "Small Business Administration", "registration_phone":
+        ""}], "start_time": "08:00:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Protecting Intellectual Property Rights Abroad for US Exporters", "venues":
+        [{"province": "OH", "city": "Cleveland", "location_name": "CSU, Downtown Campus",
+        "country": "United States", "street": "1717 Euclid Avenue", "postal_code":
+        "44115"}], "time_zone": "America/New_York", "end_time": "14:30:00", "event_date":
+        "2017-05-18 08:00:00 to 2017-05-18 14:30:00", "registration_website": "http://www.campusce.net/csubusiness/course/course.aspx?C=650&pc=90&mc=&sc",
+        "start_date": "2017-05-18"}, {"body": "<p>Bring your lunch and learn how you
+        can expand your customer base and increase your profits. Learn the basics
+        about how exporting works, how to get started, and where to go for help. &lt;p&gt;<br
+        />\nJump Start Your Business with a four-day workshop series aimed to help
+        you start and grow your small business. Join us for one class, one day, or
+        all four days. The schedule is as follows:<br />\nTuesday, May 16 &lt;p&gt;<br
+        />\n9 - 10:30 a.m. | Make the Most of Your Elevator Speech &lt;p&gt;<br />\n10:45
+        a.m. - 12:15 p.m. | So You Want to be A Small Business Owner? &lt;p&gt;<br
+        />\n12:30 - 1 p.m. | Brown Bag Lunch &amp; Learn: Networking 101&lt;p&gt;<br
+        />\n1:15 - 2:45 p.m. | Your Business Plan: Part 1 - Business Canvas Model&lt;p&gt;<br
+        />\n&lt;p&gt;<br />\nWednesday, May 17&lt;p&gt;<br />\n9 - 10:30 a.m. | Choosing
+        the Right Business Structure&lt;p&gt;<br />\n10:45 a.m. - 12:15 p.m. | Does
+        Your Business have a B.A.I.L Team? &lt;p&gt;<br />\n12:30 - 1 p.m. | Brown
+        Bag Lunch &amp; Learn: Employee Benefits 101&lt;p&gt;<br />\n1:15 - 2:45 p.m.
+        | Your Business Plan: Part 2 - Customers &amp; Markets&lt;p&gt;<br />\n&lt;p&gt;<br
+        />\nThursday, May 18&lt;p&gt;<br />\n9 - 10:30 a.m. | Meet the Lenders: Getting
+        Money for Your Business&lt;p&gt;<br />\n10:45 a.m. - 12:15 p.m. | Alternative
+        Financing: A Panel Discussion&lt;p&gt;<br />\n12:30 - 1 p.m. | Brown Bag Lunch
+        &amp; Learn: Exporting 101&lt;p&gt;<br />\n1:15 - 2:45 p.m. | Your Business
+        Plan: Part 3 - Financing &amp; Cash Flow&lt;p&gt;<br />\n&lt;p&gt;</p>\n<p>Friday,
+        May 19&lt;p&gt;<br />\n9 - 10:30 a.m. | Elements of Strategic Marketing&lt;p&gt;<br
+        />\n10:45 a.m. - 12:15 p.m. | Which Social Media Site is Right for You? &lt;p&gt;<br
+        />\n12:30 - 1 p.m. | Brown Bag Lunch &amp; Learn: Blogging 101&lt;p&gt;<br
+        />\n1:15 - 2:45 p.m. | Pitch for Success</p>\n", "fee": 0.0, "event_type":
+        "SBA Participating", "end_date": "2017-05-18", "contacts": [{"registration_email":
+        "", "contact_name": "", "agency": "Small Business Administration", "registration_phone":
+        ""}], "start_time": "12:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Seattle - Jump Start -- Brown Bag Lunch &amp; Learn: Exporting 101", "venues":
+        [{"province": "WA", "city": "Seattle ", "location_name": "SBA Training and
+        Education Center", "country": "United States", "street": "2401 4th Ave<br
+        />Suite 450", "postal_code": "98121"}], "time_zone": "America/Los_Angeles",
+        "end_time": "13:00:00", "event_date": "2017-05-18 12:30:00 to 2017-05-18 13:00:00",
+        "registration_website": "https://www.eventbrite.com/e/seattle-jumpstart-your-business-thursday-tickets-32333300773",
+        "start_date": "2017-05-18"}, {"body": "<p>The 2nd Annual State of Small Business
+        Exporting Event brings together the small business and trade communities for
+        a morning of discussion and networking with Oregon&#039;s local resource partners.</p>\n<p>Did
+        you know that 95% of consumers are located outside of the US? But only 5%
+        of small businesses sell to them. Research shows that small businesses who
+        export tend to stay in business longer, support more jobs, and pay higher
+        wages than non-exporters. There is huge untapped potential for small businesses
+        to sell Made in America goods and services abroad.</p>\n<p>This is an ideal
+        environment for small businesses and trade industry professionals to meet
+        and learn about local, state, and federal resources available to increase
+        the number of Oregon small business exporters and the value of Oregon small
+        business exports. Please join us to learn how you can support the most forward
+        and competitive businesses in your community with SBA financing options!</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-05-23", "contacts":
+        [{"registration_email": "", "contact_name": "", "agency": "Small Business
+        Administration", "registration_phone": ""}], "start_time": "08:30:00", "event_cancelled":
+        "Scheduled to occur", "node_title": "2nd Annual State of Small Business Exporting
+        Event", "venues": [{"province": "OR", "city": "Portland", "location_name":
+        "Edith Green - Wendell Wyatt Federal Building", "country": "United States",
+        "street": "1220 Southwest 3rd Avenue <br />Suite 1A &amp; 1B ", "postal_code":
+        "97204 "}], "time_zone": "America/Los_Angeles", "end_time": "10:30:00", "event_date":
+        "2017-05-23 08:30:00 to 2017-05-23 10:30:00", "registration_website": "https://www.eventbrite.com/e/2nd-annual-state-of-small-business-exporting-event-tickets-33021191272",
+        "start_date": "2017-05-23"}, {"body": "<p>Screening can be a daunting thought
+        for many exporters.\u00a0Any single transaction can be screened for several
+        factors, including restricted party involvement, end use, end user, embargoes,
+        illegal diversion, antiboycott compliance, red flags and more.\u00a0And, depending
+        upon the level of risk or any prescribed export licensing provisos, screening
+        protocols may involve potentially disruptive steps, such as securing letters
+        of assurance or end user statements from customers.<br />\nIn order to develop
+        an effective export screening strategy while minimizing disruption to the
+        flow of business, exporters must first assess their risk across a number of
+        areas.<br />\nThis briefing will feature leading local trade compliance practitioners
+        who will share their thoughts and practices for assessing risk in support
+        of developing practical and reasonable export screening protocols that ensure
+        compliance.\u00a0Appropriate and effective use of automation and screening
+        enhancement tools will also be discussed.<br />\nSpeakers include: Karen Hilliker,
+        Senior Trade Compliance Manager \u2014 Avid Technology, Inc.; Kristine Kelleher,
+        International Trade Compliance Manager \u2014 PerkinElmer, Inc.; Lisa Kester,
+        Senior Manager, Trade Compliance \u2014 MACOM Technology Solutions;  Julianne
+        Perkins, Senior Manager, Corporate Trade Compliance \u2014 PerkinElmer, Inc.</p>\n",
+        "fee": 50.0, "event_type": "Resource Partner", "end_date": "2017-05-24", "contacts":
+        [{"registration_email": "", "contact_name": "", "agency": "Small Business
+        Administration", "registration_phone": ""}], "start_time": "10:00:00", "event_cancelled":
+        "Scheduled to occur", "node_title": "Best Practices for Export Screening Risk
+        Assessment", "venues": [{"province": "MA", "city": "Waltham", "location_name":
+        "PerkinElmer, Inc.", "country": "United States", "street": "940 Winter Street",
+        "postal_code": "02451"}], "time_zone": "America/New_York", "end_time": "12:00:00",
+        "event_date": "2017-05-24 10:00:00 to 2017-05-24 12:00:00", "registration_website":
+        "http://www.mass.gov/export", "start_date": "2017-05-24"}, {"body": "<p>Are
+        you interested in getting new customers for your business, but don\u2019t
+        know where to begin? This seminar outlines the basic steps to exporting your
+        product or service. Topics include: regulations such as licenses and permits;
+        basic marketing concepts to help analyze the revenue potential; lending terminology;
+        outline for a business plan and other resources to assist in getting new customers
+        for your business by exporting.  </p>\n<p>To register for this event, please
+        visit our website at <a href=\"http://www.mssbdc.org\">www.mssbdc.org</a>,
+        or call (662) 915-1291 or In MS only 1-800-725-7232.  Pre-registration is
+        recommended.</p>\n", "fee": 0.0, "event_type": "Resource Partner", "end_date":
+        "2017-05-24", "contacts": [{"registration_email": "", "contact_name": "Precious
+        Thompson", "agency": "Small Business Administration", "registration_phone":
+        ""}], "start_time": "13:00:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Business Issues - Introduction To Exporting (Oxford)", "venues": [{"province":
+        "MS", "city": "University", "location_name": "Mississippi Small Business Development
+        Center", "country": "United States", "street": "122 Jeanette Phillips Drive",
+        "postal_code": "38677"}], "time_zone": "America/Chicago", "end_time": "14:30:00",
+        "event_date": "2017-05-24 13:00:00 to 2017-05-24 14:30:00", "registration_website":
+        "", "start_date": "2017-05-24"}, {"body": "<p>The City of Brownsville and
+        the U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-05-30", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-05-30 08:30:00 to 2017-05-30 11:00:00", "registration_website": "",
+        "start_date": "2017-05-30"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-06-06", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-06-06
+        10:00:00 to 2017-06-06 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28338070933",
+        "start_date": "2017-06-06"}, {"body": "<p>For most exporters, understanding
+        what distribution channels will work best for their particular product or
+        service, as well as finding the right partner in foreign markets, is the most
+        difficult challenge when selling overseas. Not only it is crucial to find
+        a trustworthy, knowledgeable and motivated partner, but it is also very important
+        to continue being engaged with your partner after the first sale in order
+        to grow and expand your overseas business.<br />\nThis program will address
+        these and other challenges of designing international distribution channels
+        and tools for maintaining them successfully. We will cover different types
+        of distribution channels in overseas markets and address specifics of working
+        within each channel.<br />\nAt the end of the program, several successful
+        exporters will share their experiences in a dynamic, interactive panel, open
+        to questions from the audience.<br />\nSpeakers include: Patricio Forno, President
+        \u2014\u00a0 AccelerateIBD, LLC; Denis Gagnon Jr., Vice President, International
+        \u2014 Excel Dryer, Inc.; Steven Graham, CEO and Owner \u2014 Toner Plastics,
+        Inc.</p>\n", "fee": 40.0, "event_type": "Resource Partner", "end_date": "2017-06-07",
+        "contacts": [{"registration_email": "", "contact_name": "", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "09:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Establishing and Managing
+        International Distribution Channels", "venues": [{"province": "MA", "city":
+        "Springfield", "location_name": "Scibelli Enterprise Center @ STCC", "country":
+        "United States", "street": "1 Federal Street<br />Building 101, Teleclassroom,
+        3rd Floor", "postal_code": "01105"}], "time_zone": "America/New_York", "end_time":
+        "12:00:00", "event_date": "2017-06-07 09:00:00 to 2017-06-07 12:00:00", "registration_website":
+        "http://www.mass.gov/export", "start_date": "2017-06-07"}, {"body": "<p>Come
+        meet a representative from the SBA to discuss government contracting, certifications,
+        financing and exporting at the NIA Center on the first Wednesday of each month
+        from 12:30 pm to 4:30 pm.  For an appointment, email <a href=\"mailto:robert.coffey@sba.gov\">robert.coffey@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-06-07", "contacts":
+        [{"registration_email": "", "contact_name": "Robert Coffey", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "12:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Meet the SBA at the
+        NIA Center ", "venues": [{"province": "KY", "city": "Louisville", "location_name":
+        "NIA Center", "country": "United States", "street": "2900 West Broadway",
+        "postal_code": "40210"}], "time_zone": "America/New_York", "end_time": "16:30:00",
+        "event_date": "2017-06-07 12:30:00 to 2017-06-07 16:30:00", "registration_website":
+        "", "start_date": "2017-06-07"}, {"body": "<p>Accurate export control classification
+        is essential to export regulatory compliance.  But classification can be an
+        arduous process for many companies.\u00a0Evolving export control definitions,
+        highly technical specifications and the complex structure of the Commerce
+        Control List all make classification difficult.\u00a0Equally as challenging
+        can be the export licensing process itself, where even experienced export
+        compliance practitioners can face an occasional RWA.<br />\nJoin us for this
+        seminar to learn tips and best practices for export control classification
+        and licensing, with an emphasis on effective preparation of submittals to
+        the Bureau of Industry and Security (BIS), including classification requests
+        (CCATS) and license applications.\u00a0The seminar will also provide guidance
+        on ECCN self-classification, export license determination, and license exception
+        eligibility and usage.</p>\n", "fee": 50.0, "event_type": "Resource Partner",
+        "end_date": "2017-06-08", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:00:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Best Practices for Export Control Classification and Licensing", "venues":
+        [{"province": "MA", "city": "North Reading", "location_name": "Teradyne, Inc.",
+        "country": "United States", "street": "600 Riverpark Drive", "postal_code":
+        "01864"}], "time_zone": "America/New_York", "end_time": "12:30:00", "event_date":
+        "2017-06-08 09:00:00 to 2017-06-08 12:30:00", "registration_website": "http://www.mass.gov/export",
+        "start_date": "2017-06-08"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  With nearly 96 percent
+        of consumers living outside the U.S. and two-thirds of the world\u2019s purchasing
+        power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-06-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-06-10
+        09:45:00 to 2017-06-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-06-10"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-06-13", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-06-13 08:30:00 to 2017-06-13 11:00:00", "registration_website": "",
+        "start_date": "2017-06-13"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  </p>\n<p>With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-06-16", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-06-16
+        09:30:00 to 2017-06-16 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=F9A7B569B1D89D1B81D5BF95556C0C17.worker_registrant?llr=an8uarcab&oeidk=a07edo086br96660d6d",
+        "start_date": "2017-06-16"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-06-27", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-06-27 08:30:00 to 2017-06-27 11:00:00", "registration_website": "",
+        "start_date": "2017-06-27"}, {"body": "<p>Come meet a representative from
+        the SBA to discuss government contracting, certifications, financing and exporting
+        at the NIA Center on the first Wednesday of each month from 12:30 pm to 4:30
+        pm.  For an appointment, email <a href=\"mailto:robert.coffey@sba.gov\">robert.coffey@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-07-05", "contacts":
+        [{"registration_email": "", "contact_name": "Robert Coffey", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "12:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Meet the SBA at the
+        NIA Center ", "venues": [{"province": "KY", "city": "Louisville", "location_name":
+        "NIA Center", "country": "United States", "street": "2900 West Broadway",
+        "postal_code": "40210"}], "time_zone": "America/New_York", "end_time": "16:30:00",
+        "event_date": "2017-07-05 12:30:00 to 2017-07-05 16:30:00", "registration_website":
+        "", "start_date": "2017-07-05"}, {"body": "<p>Small businesses looking to
+        increase sales and profit, reduce dependence on the domestic market and stabilize
+        seasonal fluctuations should consider importing and exporting.  With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-07-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-07-10
+        09:45:00 to 2017-07-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-07-10"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-07-11", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-07-11 08:30:00 to 2017-07-11 11:00:00", "registration_website": "",
+        "start_date": "2017-07-11"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-07-11", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-07-11
+        10:00:00 to 2017-07-11 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28338097011",
+        "start_date": "2017-07-11"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  </p>\n<p>With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-07-14", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-07-14
+        09:30:00 to 2017-07-14 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=58F5CBC142086F6B721EA51710DDDABA.worker_registrant?llr=an8uarcab&oeidk=a07edo09ca20208595d",
+        "start_date": "2017-07-14"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-07-25", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-07-25 08:30:00 to 2017-07-25 11:00:00", "registration_website": "",
+        "start_date": "2017-07-25"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-08-01", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-08-01
+        10:00:00 to 2017-08-01 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28338117071",
+        "start_date": "2017-08-01"}, {"body": "<p>Come meet a representative from
+        the SBA to discuss government contracting, certifications, financing and exporting
+        at the NIA Center on the first Wednesday of each month from 12:30 pm to 4:30
+        pm.  For an appointment, email <a href=\"mailto:robert.coffey@sba.gov\">robert.coffey@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-08-02", "contacts":
+        [{"registration_email": "", "contact_name": "Robert Coffey", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "12:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Meet the SBA at the
+        NIA Center ", "venues": [{"province": "KY", "city": "Louisville", "location_name":
+        "NIA Center", "country": "United States", "street": "2900 West Broadway",
+        "postal_code": "40210"}], "time_zone": "America/New_York", "end_time": "16:30:00",
+        "event_date": "2017-08-02 12:30:00 to 2017-08-02 16:30:00", "registration_website":
+        "", "start_date": "2017-08-02"}, {"body": "<p>The City of Brownsville and
+        the U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-08-08", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-08-08 08:30:00 to 2017-08-08 11:00:00", "registration_website": "",
+        "start_date": "2017-08-08"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  With nearly 96 percent
+        of consumers living outside the U.S. and two-thirds of the world\u2019s purchasing
+        power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-08-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-08-10
+        09:45:00 to 2017-08-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-08-10"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  </p>\n<p>With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.<br />\nFee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-08-11", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-08-11
+        09:30:00 to 2017-08-11 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=BA86CB8FAAF43DF85AD8C17FE8267458.worker_registrant?llr=an8uarcab&oeidk=a07edo2uz340f6ce983",
+        "start_date": "2017-08-11"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-08-22", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-08-22 08:30:00 to 2017-08-22 11:00:00", "registration_website": "",
+        "start_date": "2017-08-22"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-09-05", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-09-05 08:30:00 to 2017-09-05 11:00:00", "registration_website": "",
+        "start_date": "2017-09-05"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-09-05", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-09-05
+        10:00:00 to 2017-09-05 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28338162206",
+        "start_date": "2017-09-05"}, {"body": "<p>Come meet a representative from
+        the SBA to discuss government contracting, certifications, financing and exporting
+        at the NIA Center on the first Wednesday of each month from 12:30 pm to 4:30
+        pm.  For an appointment, email <a href=\"mailto:robert.coffey@sba.gov\">robert.coffey@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-09-06", "contacts":
+        [{"registration_email": "", "contact_name": "Robert Coffey", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "12:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Meet the SBA at the
+        NIA Center ", "venues": [{"province": "KY", "city": "Louisville", "location_name":
+        "NIA Center", "country": "United States", "street": "2900 West Broadway",
+        "postal_code": "40210"}], "time_zone": "America/New_York", "end_time": "16:30:00",
+        "event_date": "2017-09-06 12:30:00 to 2017-09-06 16:30:00", "registration_website":
+        "", "start_date": "2017-09-06"}, {"body": "<p>Small businesses looking to
+        increase sales and profit, reduce dependence on the domestic market and stabilize
+        seasonal fluctuations should consider importing and exporting.  With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-09-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-09-10
+        09:45:00 to 2017-09-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-09-10"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  </p>\n<p>With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.<br />\nFee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-09-15", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-09-15
+        09:30:00 to 2017-09-15 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=36A0C4BAE96CDC9FC032D791A8E82887.worker_registrant?llr=an8uarcab&oeidk=a07edo2xq8z3f33b4ae",
+        "start_date": "2017-09-15"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-09-19", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-09-19 08:30:00 to 2017-09-19 11:00:00", "registration_website": "",
+        "start_date": "2017-09-19"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-10-03", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-10-03 08:30:00 to 2017-10-03 11:00:00", "registration_website": "",
+        "start_date": "2017-10-03"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-10-03", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-10-03
+        10:00:00 to 2017-10-03 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28338185275",
+        "start_date": "2017-10-03"}, {"body": "<p>Come meet a representative from
+        the SBA to discuss government contracting, certifications, financing and exporting
+        at the NIA Center on the first Wednesday of each month from 12:30 pm to 4:30
+        pm.  For an appointment, email <a href=\"mailto:robert.coffey@sba.gov\">robert.coffey@sba.gov</a>.</p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-10-04", "contacts":
+        [{"registration_email": "", "contact_name": "Robert Coffey", "agency": "Small
+        Business Administration", "registration_phone": ""}], "start_time": "12:30:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Meet the SBA at the
+        NIA Center ", "venues": [{"province": "KY", "city": "Louisville", "location_name":
+        "NIA Center", "country": "United States", "street": "2900 West Broadway",
+        "postal_code": "40210"}], "time_zone": "America/New_York", "end_time": "16:30:00",
+        "event_date": "2017-10-04 12:30:00 to 2017-10-04 16:30:00", "registration_website":
+        "", "start_date": "2017-10-04"}, {"body": "<p>Small businesses looking to
+        increase sales and profit, reduce dependence on the domestic market and stabilize
+        seasonal fluctuations should consider importing and exporting.  With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-10-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-10-10
+        09:45:00 to 2017-10-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-10-10"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  </p>\n<p>With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.<br />\nFee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-10-13", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-10-13
+        09:30:00 to 2017-10-13 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=DD2EE59C1F11F7FD665AAD7EBE964C17.worker_registrant?llr=an8uarcab&oeidk=a07edo34bdkc9e62217",
+        "start_date": "2017-10-13"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-10-17", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-10-17 08:30:00 to 2017-10-17 11:00:00", "registration_website": "",
+        "start_date": "2017-10-17"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-10-31", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-10-31 08:30:00 to 2017-10-31 11:00:00", "registration_website": "",
+        "start_date": "2017-10-31"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-11-07", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-11-07
+        10:00:00 to 2017-11-07 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28338213359",
+        "start_date": "2017-11-07"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  With nearly 96 percent
+        of consumers living outside the U.S. and two-thirds of the world\u2019s purchasing
+        power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-11-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-11-10
+        09:45:00 to 2017-11-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-11-10"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-11-14", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-11-14 08:30:00 to 2017-11-14 11:00:00", "registration_website": "",
+        "start_date": "2017-11-14"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  </p>\n<p>With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.<br />\nFee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-11-17", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-11-17
+        09:30:00 to 2017-11-17 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=475370652E00991620D4880B03881388.worker_registrant?llr=an8uarcab&oeidk=a07edo3pfpya159b10d",
+        "start_date": "2017-11-17"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-11-28", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-11-28 08:30:00 to 2017-11-28 11:00:00", "registration_website": "",
+        "start_date": "2017-11-28"}, {"body": "<p>The SBA Baltimore District Office
+        is pleased to offer Maryland companies a seminar on export trade finance.   If
+        your business is currently exporting or looking to export as a way to grow
+        revenues, SBA encourages you to attend this informative seminar.   This session
+        will cover methods of trade finance and methods of risk mitigation and creative
+        uses of loan proceeds under SBA&#039;s export loan guarantee programs.  SBA\u2019s
+        export loan guarantee programs can be used to finance a company\u2019s entire
+        export business plan, from making overseas trips to financing equipment and
+        real estate.      There will be time to meet one-on-one with trade specialists
+        to go over your specific export business needs.</p>\n", "fee": 0.0, "event_type":
+        "SBA Sponsored", "end_date": "2017-12-05", "contacts": [{"registration_email":
+        "william.houck@sba.gov", "contact_name": "Bill Houck", "agency": "Small Business
+        Administration", "registration_phone": "410-962-4539"}], "start_time": "10:00:00",
+        "event_cancelled": "Scheduled to occur", "node_title": "Export Financing for
+        Small Businesses", "venues": [{"province": "MD", "city": "Baltimore", "location_name":
+        "SBA Baltimore District Office", "country": "United States", "street": "City
+        Crescent Building<br />10 S. Howard St., Ste. 6220", "postal_code": "21201"}],
+        "time_zone": "America/New_York", "end_time": "12:00:00", "event_date": "2017-12-05
+        10:00:00 to 2017-12-05 12:00:00", "registration_website": "https://www.eventbrite.com/e/export-financing-workshop-tickets-28338238434",
+        "start_date": "2017-12-05"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  With nearly 96 percent
+        of consumers living outside the U.S. and two-thirds of the world\u2019s purchasing
+        power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.</p>\n<p>Fee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm</p>\n<p>Both modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-12-10", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:45:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta ", "location_name": "SBA Georgia District Office 1900", "country":
+        "United States", "street": "2330 Peachtree Street NE ", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-12-10
+        09:45:00 to 2017-12-10 16:15:00", "registration_website": "http://events.constantcontact.com/register/event?llr=an8uarcab&oeidk=a07edny8qfy9f29c799",
+        "start_date": "2017-12-10"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-12-12", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-12-12 08:30:00 to 2017-12-12 11:00:00", "registration_website": "",
+        "start_date": "2017-12-12"}, {"body": "<p>Small businesses looking to increase
+        sales and profit, reduce dependence on the domestic market and stabilize seasonal
+        fluctuations should consider importing and exporting.  </p>\n<p>With nearly
+        96 percent of consumers living outside the U.S. and two-thirds of the world\u2019s
+        purchasing power in foreign countries, opportunities await U.S. small business.</p>\n<p>Go
+        where the customers are. There is significant opportunity for small businesses
+        to profit through importing and exporting operations.</p>\n<p>Do you have
+        what it takes to become a successful international business? Are you ready
+        to make international sales? Importing / Exporting offers great opportunities
+        but requires preparation and planning.</p>\n<p>This is a two part series taught
+        by international experts from the Georgia Small Business Development Center,
+        a resource partner of the SBA.</p>\n<p>Module I will aid you in assessing
+        your readiness, understanding what you need to know and consider before pursuing
+        an international strategy.<br />\nModule II will introduce you to those topics
+        needed to develop and implement your strategy: international pricing and costing
+        issues, proforma export quotations, payment terms, and risk assessment.</p>\n<p>The
+        workshops will help you gain the knowledge to develop and implement an international  plan.
+        You will become acquainted with the key components of an effective import
+        / export plan.  The instructors will raise questions you should answer to
+        complete your plan and provide the resources to help you answer those questions.</p>\n<p>    *
+        organizational and product readiness,<br />\n    * market research,<br />\n    *
+        guidance for developing your strategy and marketing plan,<br />\n    * promoting
+        your products in target market, and<br />\n    * complying with US and foreign
+        regulations.<br />\nFee for Module  I is $50 per person and is taught 9:30am
+        - 12:30pm<br />\nFee for Module II is $50 per person and is taught 1:15pm
+        -  4:30pm<br />\nBoth modules can be attended as a full day event for a single
+        Fee of $89 per person</p>\n", "fee": 89.0, "event_type": "Resource Partner",
+        "end_date": "2017-12-15", "contacts": [{"registration_email": "", "contact_name":
+        "", "agency": "Small Business Administration", "registration_phone": ""}],
+        "start_time": "09:30:00", "event_cancelled": "Scheduled to occur", "node_title":
+        "Develop an Import / Export Business ", "venues": [{"province": "GA", "city":
+        "Atlanta", "location_name": "SBA Georgia District Office ", "country": "United
+        States", "street": "233 Peachtree Street NE 1900", "postal_code": "30303"}],
+        "time_zone": "America/New_York", "end_time": "16:15:00", "event_date": "2017-12-15
+        09:30:00 to 2017-12-15 16:15:00", "registration_website": "http://events.r20.constantcontact.com/register/event;jsessionid=16C423CFCF5F97451E8B988C204845E2.worker_registrant?llr=an8uarcab&oeidk=a07edo3q65f66d488eb",
+        "start_date": "2017-12-15"}, {"body": "<p>The City of Brownsville and the
+        U.S. Small Business Administration\u2019s Lower Rio Grande Valley District
+        Office (LRGVDO) signed a Strategic Alliance Memorandum (SAM) to encourage
+        entrepreneurship and economic empowerment through increased collaboration
+        on entrepreneurial and financial education for local veterans as well as small
+        business owners.</p>\n<p>In support of the SAM, the LRGVDO has scheduled an
+        Economic Development Specialist (EDS) at the Brownsville Veterans Resource
+        Center on alternate Tuesdays from 8:30 a.m. to 11 a.m. to provide small business
+        programs and services for local veterans.</p>\n<p>For more information contact
+        Reynaldo D. Vasquez at 956-427-8533 x 300 or email at <a href=\"mailto:reynaldo.vasquez@sba.gov\">reynaldo.vasquez@sba.gov</a></p>\n",
+        "fee": 0.0, "event_type": "SBA Sponsored", "end_date": "2017-12-26", "contacts":
+        [{"registration_email": "", "contact_name": "Reynaldo Vasquez", "agency":
+        "Small Business Administration", "registration_phone": ""}], "start_time":
+        "08:30:00", "event_cancelled": "Scheduled to occur", "node_title": "SBA at
+        the Brownsville Veterans Resource Center ", "venues": [{"province": "TX",
+        "city": "Brownsville", "location_name": "Brownsville City Plaza", "country":
+        "United States", "street": "1034 East Levee Street<br />2nd Floor", "postal_code":
+        "78520"}], "time_zone": "America/Chicago", "end_time": "11:00:00", "event_date":
+        "2017-12-26 08:30:00 to 2017-12-26 11:00:00", "registration_website": "",
+        "start_date": "2017-12-26"}]'
+    http_version: 
+  recorded_at: Tue, 28 Mar 2017 23:22:20 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3.amazonaws.com/search-api-static-files/screening_list/feed1.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - kFE9POAdH+07CUn5rBH6WGVzesfYzKryX1V5TgGLSoJgVxIuasdwqHsZlXBMtH3A5IHSbLQmu/Y=
+      X-Amz-Request-Id:
+      - 49FC1ADBBD992A42
+      Date:
+      - Wed, 29 Mar 2017 17:01:07 GMT
+      Last-Modified:
+      - Wed, 22 Mar 2017 21:01:19 GMT
+      Etag:
+      - '"b745c902d02d742a5f2a3e9e1d76dce6"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - text/csv
+      Content-Length:
+      - '68'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: |
+        col1,col2
+        a,here is some free text on ponies
+        b,this is about a pony
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 17:01:06 GMT
+- request:
+    method: get
+    uri: https://s3.amazonaws.com/search-api-static-files/screening_list/feed2.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 2U7v1pfjNtst8ZkbJ/+mUwyNmZyeaOAzMf4ip5S3X0wWQ/Yvuz6X/jVbVEqki6Du+mpmwKce+Lo=
+      X-Amz-Request-Id:
+      - E7188FC601F051A7
+      Date:
+      - Wed, 29 Mar 2017 17:01:08 GMT
+      Last-Modified:
+      - Wed, 22 Mar 2017 21:01:19 GMT
+      Etag:
+      - '"1708d6a194178ba6e4ec3daef7e298d2"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - text/csv
+      Content-Length:
+      - '48'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: |
+        col1,col2
+        c,ponies are nice
+        d,horses are bigger
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 17:01:07 GMT
+recorded_with: VCR 3.0.3

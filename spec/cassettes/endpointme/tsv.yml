@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3.amazonaws.com/search-api-static-files/screening_list/tabs.tsv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - 3Z7ZudJfic9TCa0WEO7ZCgu25OeS/9Zkir6Qqm9w5PY9deNDAWfRmxPPN3Ozew3Xzb6VNsrQoEM=
+      X-Amz-Request-Id:
+      - 43F114C7C29D5445
+      Date:
+      - Wed, 29 Mar 2017 21:14:03 GMT
+      Last-Modified:
+      - Wed, 29 Mar 2017 21:08:09 GMT
+      Etag:
+      - '"f0ca3adcc256c204165cc98d83e29d58"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - text/tab-separated-values
+      Content-Length:
+      - '41'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: "f1\tf2\nval1 from tabs\t1\nval2 from tabs\t2\n\n"
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 21:14:02 GMT
+recorded_with: VCR 3.0.3

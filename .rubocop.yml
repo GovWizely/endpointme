@@ -1,0 +1,10 @@
+Metrics/LineLength:
+  Max: 800
+  AllowURI: true
+Style/MutableConstant:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false

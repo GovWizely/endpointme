@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3.amazonaws.com/search-api-static-files/screening_list/feed2.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - Tgy6DML7uL+r5BCVbE/ederkqd8xb7x9WPCZCIkkuofgRb3UUVgdxaMxt7iwI6E+zEPzYOHl1vg=
+      X-Amz-Request-Id:
+      - F90BC81227588918
+      Date:
+      - Wed, 29 Mar 2017 16:13:05 GMT
+      Last-Modified:
+      - Wed, 22 Mar 2017 21:01:19 GMT
+      Etag:
+      - '"1708d6a194178ba6e4ec3daef7e298d2"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - text/csv
+      Content-Length:
+      - '48'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: |
+        col1,col2
+        c,ponies are nice
+        d,horses are bigger
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 16:13:04 GMT
+recorded_with: VCR 3.0.3
