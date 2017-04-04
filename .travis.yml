@@ -1,0 +1,13 @@
+bundler_args: --without development staging production
+language: ruby
+sudo: true
+
+addons:
+  code_climate:
+    repo_token: e18464ea9a14d167b6ddfb7901c773d7eb658f147f0bfa7c9e22f30d150c9b14
+  apt:
+    packages:
+      - oracle-java8-set-default
+
+before_install:
+  - curl -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.2.1.deb && sudo dpkg -i --force-confnew elasticsearch-5.2.1.deb && env && sudo service elasticsearch start

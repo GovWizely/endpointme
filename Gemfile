@@ -10,7 +10,7 @@ end
 gem 'charlock_holmes'
 gem 'elasticsearch'
 gem 'elasticsearch-model'
-gem 'elasticsearch-persistence', git: 'git://github.com/elasticsearch/elasticsearch-rails.git' # remove when 0.10.0
+gem 'elasticsearch-persistence', git: 'https://github.com/elasticsearch/elasticsearch-rails' # remove when 0.10.0
 gem 'htmlentities'
 gem 'jbuilder'
 gem 'jsonpath'

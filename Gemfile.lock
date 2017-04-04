@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/elasticsearch/elasticsearch-rails.git
-  revision: 844e1fed80f9e540ce5cdd79e50ee916b2076f50
+  remote: https://github.com/elasticsearch/elasticsearch-rails
+  revision: 109c155df6c8b8989aa935bc1fe163a1452a2b4e
   specs:
     elasticsearch-model (0.1.9)
       activesupport (> 3)
