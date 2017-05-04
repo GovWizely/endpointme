@@ -21,6 +21,7 @@ gem 'roo'
 gem 'roo-xls'
 gem 'sanitize'
 gem 'smarter_csv'
+gem 'airbrake-ruby', '~> 2.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
