@@ -153,7 +153,7 @@ RSpec.describe DataSource do
 
       it 'creates correct aggregations of nested fields' do
         results = data_source.with_api_model do |klass|
-          query = ApiModelQuery.new(data_source.metadata, ActionController::Parameters.new)
+          query = ApiModelQuery.new(data_source.metadata, ActionController::Parameters.new.permit)
           klass.search(query.generate_search_body_hash)
         end
         aggs = results.response.aggregations

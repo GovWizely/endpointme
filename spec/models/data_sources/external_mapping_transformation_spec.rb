@@ -8,7 +8,7 @@ RSpec.describe DataSources::ExternalMappingTransformation do
     end
 
     it 'sets the correct expiry in seconds' do
-      expect(Rails.cache).to receive(:fetch).with('some url', expires_in: 31_557_600)
+      expect(Rails.cache).to receive(:fetch).with('some url', expires_in: 31_556_952)
       emt.transform('foo')
     end
 

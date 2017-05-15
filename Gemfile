@@ -7,15 +7,15 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'rails', '~> 5.1'
 gem 'charlock_holmes'
 gem 'elasticsearch'
-gem 'elasticsearch-model'
-gem 'elasticsearch-persistence', git: 'https://github.com/elasticsearch/elasticsearch-rails' # remove when 0.10.0
+gem 'elasticsearch-model', github: 'elastic/elasticsearch-rails', branch: '5.x'
+gem 'elasticsearch-persistence', github: 'elastic/elasticsearch-rails', branch: '5.x'
 gem 'htmlentities'
 gem 'jbuilder'
 gem 'jsonpath'
 gem 'puma'
-gem 'rails', '~> 5.0.2'
 gem 'responders'
 gem 'roo'
 gem 'roo-xls'
