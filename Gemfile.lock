@@ -15,6 +15,15 @@ GIT
       hashie
       virtus
 
+GIT
+  remote: https://github.com/roo-rb/roo-xls.git
+  revision: 00ccb4c9c10f028846eb9b0cb1c640b798c944a7
+  specs:
+    roo-xls (1.1.0)
+      nokogiri
+      roo (>= 2.0.0beta1, < 3)
+      spreadsheet (> 0.9.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -57,7 +66,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    airbrake-ruby (2.2.4)
+    airbrake-ruby (2.2.5)
     arel (8.0.0)
     ast (2.3.0)
     axiom-types (0.1.1)
@@ -102,7 +111,7 @@ GEM
       activesupport (>= 3.0.0)
       multi_json (>= 1.2)
     json (2.1.0)
-    jsonpath (0.7.2)
+    jsonpath (0.8.2)
       multi_json
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -168,10 +177,6 @@ GEM
     roo (2.7.1)
       nokogiri (~> 1)
       rubyzip (~> 1.1, < 2.0.0)
-    roo-xls (1.0.0)
-      nokogiri
-      roo (>= 2.0.0beta1, < 3)
-      spreadsheet (> 0.9.0)
     rspec-core (3.6.0)
       rspec-support (~> 3.6.0)
     rspec-expectations (3.6.0)
@@ -258,7 +263,7 @@ DEPENDENCIES
   rb-readline
   responders
   roo
-  roo-xls
+  roo-xls!
   rspec-rails
   rubocop (= 0.39.0)
   sanitize
