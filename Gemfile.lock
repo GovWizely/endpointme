@@ -15,15 +15,6 @@ GIT
       hashie
       virtus
 
-GIT
-  remote: https://github.com/roo-rb/roo-xls.git
-  revision: 00ccb4c9c10f028846eb9b0cb1c640b798c944a7
-  specs:
-    roo-xls (1.1.0)
-      nokogiri
-      roo (>= 2.0.0beta1, < 3)
-      spreadsheet (> 0.9.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -177,6 +168,10 @@ GEM
     roo (2.7.1)
       nokogiri (~> 1)
       rubyzip (~> 1.1, < 2.0.0)
+    roo-xls (1.1.0)
+      nokogiri
+      roo (>= 2.0.0beta1, < 3)
+      spreadsheet (> 0.9.0)
     rspec-core (3.6.0)
       rspec-support (~> 3.6.0)
     rspec-expectations (3.6.0)
@@ -263,7 +258,7 @@ DEPENDENCIES
   rb-readline
   responders
   roo
-  roo-xls!
+  roo-xls
   rspec-rails
   rubocop (= 0.39.0)
   sanitize

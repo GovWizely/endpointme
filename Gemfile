@@ -20,7 +20,7 @@ gem 'jsonpath'
 gem 'puma'
 gem 'responders'
 gem 'roo'
-gem 'roo-xls', github: 'roo-rb/roo-xls'
+gem 'roo-xls'
 gem 'sanitize'
 gem 'smarter_csv'
 
