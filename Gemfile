@@ -8,6 +8,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.1'
+
+gem 'airbrake-ruby', '~> 2.0'
 gem 'charlock_holmes'
 gem 'elasticsearch'
 gem 'elasticsearch-model', github: 'elastic/elasticsearch-rails', branch: '5.x'
@@ -21,7 +23,6 @@ gem 'roo'
 gem 'roo-xls', github: 'roo-rb/roo-xls'
 gem 'sanitize'
 gem 'smarter_csv'
-gem 'airbrake-ruby', '~> 2.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
