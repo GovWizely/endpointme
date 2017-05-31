@@ -30,7 +30,7 @@ class DataSourcesController < ApplicationController
     if @data_source.save(op_type: :create, refresh: true)
       render json: @data_source, status: :created, location: @data_source
     else
-      render json: @data_source.errors, status: :unprocessable_entity
+      render json: { errors: @data_source.errors }, status: :unprocessable_entity
     end
   end
 
@@ -43,7 +43,7 @@ class DataSourcesController < ApplicationController
       perform_update
       render json: @data_source
     else
-      render json: @data_source.errors, status: :unprocessable_entity
+      render json: { errors: @data_source.errors }, status: :unprocessable_entity
     end
   end
 
@@ -70,6 +70,6 @@ class DataSourcesController < ApplicationController
 
   def api_not_unique
     @data_source.errors.add(:api, "'#{@data_source.api}' already exists.")
-    render json: @data_source.errors, status: :unprocessable_entity
+    render json: { errors: @data_source.errors }, status: :unprocessable_entity
   end
 end
