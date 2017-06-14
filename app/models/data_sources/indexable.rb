@@ -13,6 +13,12 @@ module DataSources
 
     def ingest
       delete_api_index
+      # TODO
+      # 1. delete existing pipeline if it exists
+      # 1. create IngestPipeline.new(name_builder('pipelines'),dictionary)
+      # 1. register pipeline with elasticsearch
+      puts "1"*80
+      puts dictionary
       with_api_model do |klass|
         klass.create_index!
         _ingest(klass)
@@ -35,8 +41,12 @@ module DataSources
     private
 
     def delete_api_index
-      ES.client.indices.delete(index: [ES::INDEX_PREFIX, 'api_models', api, "v#{version_number}"].join(':'), ignore: 404)
+      ES.client.indices.delete(index: name_builder('api_models'), ignore: 404)
       DataSource.refresh_index!
+    end
+
+    def name_builder(namespace)
+      [ES::INDEX_PREFIX, namespace, api, "v#{version_number}"].join(':')
     end
 
     def initialize_timestamps

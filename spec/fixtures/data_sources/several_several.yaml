@@ -1,0 +1,18 @@
+---
+_collection_path: "$[*]"
+bar:
+  source: foo
+  indexed: true
+  plural: false
+  type: enum
+  transformations:
+  - upcase
+  - split: '-'
+  - from: 4
+blat:
+  copy_from: foo
+  indexed: true
+  plural: false
+  type: date
+  transformations:
+  - reformat_date: '%m/%d/%Y'

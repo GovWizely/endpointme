@@ -1,0 +1,7 @@
+---
+_collection_path: "$[*]"
+foo:
+  source: bar
+  indexed: true
+  plural: false
+  type: enum

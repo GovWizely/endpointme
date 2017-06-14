@@ -22,6 +22,7 @@ module DataSources
     def transform(row)
       row_hash = row.to_hash
       raw_hash = row_hash.merge(copied_fields_hash(row_hash)).slice(*entries.keys)
+      #TODO: no more xformed_hash
       xformed_hash = raw_hash.keys.map { |field_sym| [field_sym, transformers[field_sym].transform(raw_hash[field_sym])] }.to_h
       hash = xformed_hash.merge(constant_values).merge(transformed_collections(row))
       group_nested_entries(hash)

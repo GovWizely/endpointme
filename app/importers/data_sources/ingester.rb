@@ -16,6 +16,7 @@ module DataSources
 
     def insert(rows)
       rows.in_groups_of(BULK_GROUP_SIZE, false) do |group|
+        # TODO add , pipeline: pipeline_id to bulk call if present
         ES.client.bulk(index: @klass.index_name, type: @klass.document_type, body: bulkify(group))
       end
     end

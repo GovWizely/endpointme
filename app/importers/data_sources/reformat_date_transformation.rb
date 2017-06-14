@@ -1,11 +1,10 @@
 module DataSources
   class ReformatDateTransformation
-    def initialize(date_format)
-      @date_format = date_format
-    end
-
-    def transform(value)
-      Date.strptime(value, @date_format).to_s
+    def self.generate_processor(json, field, date_format)
+      json.date do
+        json.field field
+        json.formats [date_format]
+      end
     end
   end
 end
