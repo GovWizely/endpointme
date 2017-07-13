@@ -1,7 +1,0 @@
----
-_collection_path: "$[*]"
-bar:
-  constant: blat
-  indexed: true
-  plural: false
-  type: enum

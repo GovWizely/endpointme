@@ -3,10 +3,11 @@ module DataSources
     include Utils
     BULK_GROUP_SIZE = 1000
 
-    def initialize(klass, metadata, data)
+    def initialize(klass, metadata, data, ingest_pipeline_id)
       @klass = klass
       @metadata = metadata
       @data = data
+      @ingest_pipeline_id = ingest_pipeline_id
       fields = @metadata.unique_fields.present? ? @metadata.unique_fields : @metadata.entries
       @keys_for_id = fields.keys
       @timestamp = Time.now.utc
@@ -16,8 +17,8 @@ module DataSources
 
     def insert(rows)
       rows.in_groups_of(BULK_GROUP_SIZE, false) do |group|
-        # TODO add , pipeline: pipeline_id to bulk call if present
-        ES.client.bulk(index: @klass.index_name, type: @klass.document_type, body: bulkify(group))
+        ES.client.bulk(index: @klass.index_name, type: @klass.document_type, body: bulkify(group),
+                       pipeline: @ingest_pipeline_id)
       end
     end
 

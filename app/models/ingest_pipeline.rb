@@ -27,15 +27,6 @@ class IngestPipeline
   end
 
   def generate_all_processors_for_field(json, target_field, meta)
-    source_field = meta[:source] || meta[:copy_from]
-    if source_field
-      if target_field != source_field
-        rename(json, target_field, meta[:source]) if meta[:source]
-        trim(json, target_field, meta[:copy_from]) if meta[:copy_from]
-      end
-    elsif meta[:constant]
-      constant(json, target_field, meta[:constant])
-    end
     meta[:transformations].each do |transformation_entry|
       json.child! do
         generate_processor_for_target_field(target_field, json, transformation_entry)
@@ -48,33 +39,6 @@ class IngestPipeline
       DataSources::StringTransformation.generate_processor(json, field, transformation_entry)
     else
       process_hash(json, field, transformation_entry)
-    end
-  end
-
-  def rename(json, target_field, field)
-    json.child! do
-      json.rename do
-        json.field field
-        json.target_field target_field
-      end
-    end
-  end
-
-  def trim(json, target_field, field)
-    json.child! do
-      json.trim do
-        json.field field
-        json.target_field target_field
-      end
-    end
-  end
-
-  def constant(json, target_field, field)
-    json.child! do
-      json.set do
-        json.field target_field
-        json.value field
-      end
     end
   end
 
