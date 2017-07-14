@@ -6,4 +6,4 @@ bar:
   plural: false
   type: enum
   transformations:
-  - reformat_date: '%m/%d/%Y'
+  - reformat_date: 'MM/dd/yyyy'

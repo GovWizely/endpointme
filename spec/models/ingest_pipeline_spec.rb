@@ -66,7 +66,7 @@ RSpec.describe IngestPipeline do
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
 
     it 'generates a processor to return the value in the new format' do
-      processor = { date: { field: 'bar', formats: ['%m/%d/%Y'] } }.with_indifferent_access
+      processor = { date: { field: 'bar', target_field: 'bar', formats: ['MM/dd/yyyy'] } }.with_indifferent_access
       expect(pipeline[:processors]).to eq([processor])
     end
   end
