@@ -3,6 +3,7 @@ class IngestPipeline
   def initialize(name, metadata)
     @name = name
     @metadata = metadata
+    @split_context = false
   end
 
   def pipeline
@@ -22,6 +23,7 @@ class IngestPipeline
     json.processors do
       @metadata.entries.map do |field, meta|
         generate_all_processors_for_field(json, field, meta.with_indifferent_access)
+        @split_context = false
       end
     end
   end
@@ -29,9 +31,22 @@ class IngestPipeline
   def generate_all_processors_for_field(json, target_field, meta)
     meta[:transformations].each do |transformation_entry|
       json.child! do
-        generate_processor_for_target_field(target_field, json, transformation_entry)
+        if @split_context
+          foreach(json, target_field, transformation_entry)
+        else
+          generate_processor_for_target_field(target_field, json, transformation_entry)
+        end
       end
     end if meta[:transformations].present?
+  end
+
+  def foreach(json, target_field, transformation_entry)
+    json.foreach do
+      json.field target_field
+      json.processor do
+        generate_processor_for_target_field("_ingest._value", json, transformation_entry)
+      end
+    end
   end
 
   def generate_processor_for_target_field(field, json, transformation_entry)
@@ -50,6 +65,7 @@ class IngestPipeline
     else
       array = transformation_entry_hash.to_a.flatten
       DataSources::StringTransformation.generate_processor(json, field, array.first, array.from(1))
+      @split_context = 'split' == array.first
     end
   end
 
