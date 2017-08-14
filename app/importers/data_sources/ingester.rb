@@ -1,7 +1,7 @@
 module DataSources
   class Ingester
     include Utils
-    BULK_GROUP_SIZE = 1000
+    BULK_GROUP_SIZE = 100
 
     def initialize(klass, metadata, data, ingest_pipeline_id)
       @klass = klass
