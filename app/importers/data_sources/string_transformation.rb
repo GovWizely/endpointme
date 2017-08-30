@@ -35,6 +35,7 @@ module DataSources
         json.split do
           json.field field
           json.separator args[0]
+          json.ignore_missing true
         end
       end
 

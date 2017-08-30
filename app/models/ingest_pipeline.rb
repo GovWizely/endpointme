@@ -46,6 +46,7 @@ class IngestPipeline
       json.processor do
         generate_processor_for_target_field("_ingest._value", json, transformation_entry)
       end
+      json.ignore_failure true
     end
   end
 
