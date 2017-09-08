@@ -1,6 +1,6 @@
 ---
 _collection_path: "$[*]"
-bar:
+blat:
   source: bar
   indexed: true
   plural: false

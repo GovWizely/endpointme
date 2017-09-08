@@ -1,73 +1,31 @@
 ---
-:_collection_path: "$[*]"
-:_aggregations:
-  :country_codes:
-    :field: places.country_code
-:source:
-  :constant: AB
-  :indexed: false
-  :plural: false
-  :type: enum
-:name:
-  :source: label
-  :description: desc of label
-  :indexed: true
-  :plural: true
-  :type: enum
-:posted:
-  :source: post_date
-  :description: desc of date
-  :indexed: true
-  :plural: false
-  :type: date
-:places:
-  :_collection_path: venues
-  :country_code:
-    :source: country
-    :description: desc of country
-    :indexed: true
-    :plural: true
-    :type: enum
-  :country_name:
-    :copy_from: country_code
-    :description: desc of country name
-    :indexed: true
-    :plural: false
-    :type: string
-    :transformations:
-    - downcase
-  :venue:
-    :source: venue
-    :description: desc of venue
-    :indexed: true
-    :plural: false
-    :type: string
-:contacts:
-  :_collection_path: contacts
-  :myfloat:
-    :source: myfloat
-    :description: desc of myfloat
-    :indexed: true
-    :plural: false
-    :type: float
-  :bday:
-    :source: birthdate
-    :description: desc of birth date
-    :indexed: true
-    :plural: false
-    :type: date
-  :fname:
-    :source: first_name
-    :indexed: true
-    :plural: false
-    :type: string
-  :lname:
-    :source: last_name
-    :indexed: true
-    :plural: false
-    :type: enum
-  :mname:
-    :constant: karl
-    :indexed: true
-    :plural: false
-    :type: enum
+_collection_path: "$[*]"
+title:
+  source: title
+  description: Description of title
+  indexed: true
+  plural: false
+  type: string
+  use_for_id: true
+places:
+  _collection_path: venues
+  country_name:
+    source: country_name
+    description: desc of country name
+    indexed: false
+    plural: false
+    type: string
+  country:
+    copy_from: country_name
+    description: desc of country code
+    indexed: true
+    plural: true
+    type: enum
+    transformations:
+    - external_mapping:
+        url: http://im.govwizely.com/api/terms.json?source=TradeEvent::Ustda&mapped_term={}&cache=false
+        result_path: "$..name"
+        multi_value: false
+    - external_mapping:
+        url: https://restcountries.eu/rest/v1/name/{}?fullText=true
+        result_path: "$..alpha2Code"

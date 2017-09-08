@@ -31,7 +31,10 @@ class IngestPipeline
   def generate_all_processors_for_field(json, target_field, meta)
     meta[:transformations].each do |transformation_entry|
       json.child! do
-        if @split_context
+        if meta[:search_path].present?
+          target_field, nested_field = meta[:search_path].split('.')
+          foreach(json, target_field, transformation_entry, nested_field)
+        elsif @split_context
           foreach(json, target_field, transformation_entry)
         else
           generate_processor_for_target_field(target_field, json, transformation_entry)
@@ -40,11 +43,13 @@ class IngestPipeline
     end if meta[:transformations].present?
   end
 
-  def foreach(json, target_field, transformation_entry)
+  def foreach(json, target_field, transformation_entry, nested_field = nil)
     json.foreach do
-      json.field target_field
+      json.field target_field.to_s
       json.processor do
-        generate_processor_for_target_field("_ingest._value", json, transformation_entry)
+        ingest_value_field = '_ingest._value'
+        ingest_value_field = [ingest_value_field, nested_field].join('.') if nested_field.present?
+        generate_processor_for_target_field(ingest_value_field, json, transformation_entry)
       end
       json.ignore_failure true
     end

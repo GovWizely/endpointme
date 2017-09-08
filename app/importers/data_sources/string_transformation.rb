@@ -6,7 +6,7 @@ module DataSources
 
       def generate_processor(json, field, method, args = nil)
         raise ArgumentError unless SUPPORTED_INSTANCE_METHODS.include?(method.to_sym)
-        args.present? ? send(method, json, field, args) : send(method, json, field)
+        args.present? ? send(method, json, field.to_s, args) : send(method, json, field.to_s)
       end
 
       def downcase(json, field)
