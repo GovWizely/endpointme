@@ -21,10 +21,15 @@ class IngestPipeline
 
   def generate_pipeline(json)
     json.processors do
-      @metadata.entries.map do |field, meta|
-        generate_all_processors_for_field(json, field, meta.with_indifferent_access)
-        @split_context = false
-      end
+      processors = generate_processors(json)
+      json.array! [] unless processors.any?
+    end
+  end
+
+  def generate_processors(json)
+    @metadata.entries.map do |field, meta|
+      generate_all_processors_for_field(json, field, meta.with_indifferent_access)
+      @split_context = false
     end
   end
 
