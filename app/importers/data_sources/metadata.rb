@@ -41,10 +41,6 @@ module DataSources
       end
     end
 
-    def transformers
-      @transformers ||= entries.map { |field, meta| [field, DataSources::Transformer.new(meta)] }.to_h
-    end
-
     def deep_stringified_yaml
       yaml_dictionary.deep_stringify_keys.to_yaml
     end

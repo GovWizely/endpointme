@@ -1,6 +1,6 @@
 module DataSources
   class TSVIngester < SVIngester
-    def initialize(klass, metadata, ingest_pipeline_id, data)
+    def initialize(klass, metadata, data, ingest_pipeline_id)
       super(klass, metadata, data, ingest_pipeline_id, "\t")
     end
   end
