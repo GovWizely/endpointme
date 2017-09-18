@@ -3,6 +3,7 @@ language: ruby
 rvm:
   - 2.3.4
 sudo: true
+dist: trusty
 
 addons:
   code_climate:
