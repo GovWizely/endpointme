@@ -15,7 +15,7 @@ RSpec.describe IngestPipeline do
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
 
     it 'generates an uppercase processor' do
-      processor = { uppercase: { field: 'blat' } }.with_indifferent_access
+      processor = { uppercase: { field: 'blat', ignore_missing: true } }.with_indifferent_access
       expect(pipeline[:processors]).to eq([processor])
     end
   end
@@ -25,7 +25,7 @@ RSpec.describe IngestPipeline do
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
 
     it 'generates an lowercase processor' do
-      processor = { lowercase: { field: 'bar' } }.with_indifferent_access
+      processor = { lowercase: { field: 'bar', ignore_missing: true } }.with_indifferent_access
       expect(pipeline[:processors]).to eq([processor])
     end
   end
@@ -35,7 +35,8 @@ RSpec.describe IngestPipeline do
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
 
     it 'generates a gsub processor' do
-      processor = { gsub: { field: 'bar', pattern: 'å', replacement: 'a' } }.with_indifferent_access
+      processor = { gsub: { field: 'bar', pattern: 'å', replacement: 'a',
+                            ignore_missing: true } }.with_indifferent_access
       expect(pipeline[:processors]).to eq([processor])
     end
   end
@@ -55,7 +56,8 @@ RSpec.describe IngestPipeline do
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
 
     it 'generates an appropriate gsub processor' do
-      processor = { gsub: { field: 'bar', pattern: '^.{4}', replacement: '' } }.with_indifferent_access
+      processor = { gsub: { field: 'bar', pattern: '^.{4}', replacement: '',
+                            ignore_missing: true } }.with_indifferent_access
       expect(pipeline[:processors]).to eq([processor])
     end
   end
@@ -75,10 +77,11 @@ RSpec.describe IngestPipeline do
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
 
     it 'generates all the necessary processors' do
-      uppercase_processor = { uppercase: { field: 'bar' } }.with_indifferent_access
+      uppercase_processor = { uppercase: { field: 'bar', ignore_missing: true } }.with_indifferent_access
       split_processor = { split: { field: 'bar', separator: '-', ignore_missing: true } }.with_indifferent_access
       foreach_gsub_processor = { foreach: { field: 'bar', processor: { gsub: {
-        field: '_ingest._value', pattern: '^.{4}', replacement: '' } }, ignore_failure: true } }.with_indifferent_access
+        field: '_ingest._value', pattern: '^.{4}', replacement: '', ignore_missing: true } },
+                                            ignore_failure: true } }.with_indifferent_access
 
       date_processor = { date: { field: 'blat', target_field: 'blat', formats: ['%m/%d/%Y'] } }.with_indifferent_access
 

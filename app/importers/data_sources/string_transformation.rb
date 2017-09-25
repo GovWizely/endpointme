@@ -12,6 +12,7 @@ module DataSources
       def downcase(json, field)
         json.lowercase do
           json.field field
+          json.ignore_missing true
         end
       end
 
@@ -20,6 +21,7 @@ module DataSources
           json.field field
           json.pattern "^.{#{args[0]}}"
           json.replacement ''
+          json.ignore_missing true
         end
       end
 
@@ -28,6 +30,7 @@ module DataSources
           json.field field
           json.pattern args[0]
           json.replacement args[1]
+          json.ignore_missing true
         end
       end
 
@@ -42,6 +45,7 @@ module DataSources
       def upcase(json, field)
         json.uppercase do
           json.field field
+          json.ignore_missing true
         end
       end
     end
