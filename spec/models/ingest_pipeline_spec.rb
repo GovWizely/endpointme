@@ -72,6 +72,41 @@ RSpec.describe IngestPipeline do
     end
   end
 
+  context 'array contexts' do
+    let(:metadata) { use_yaml_fixture('array_contexts') }
+    let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
+
+    it 'coalesces the multi-value entries' do
+      country_foreach_processor = {
+        foreach: {
+          field: 'country',
+          processor: {
+            json_api: {
+              field: '_ingest._value',
+              target_field: '_ingest._value',
+              json_path: '$..alpha2Code',
+              url_prefix: 'https://restcountries.eu/rest/v1/name/{}?fullText=true',
+              multi_value: nil,
+              ignore_missing: true } },
+          ignore_failure: true } }.with_indifferent_access
+      industry_foreach_processor = {
+        foreach: {
+          field: 'industry',
+          processor: {
+            json_api: {
+              field: '_ingest._value',
+              target_field: '_ingest._value',
+              json_path: '$..name',
+              url_prefix: 'http://im.govwizely.com/api/terms.json?mapped_term={}&source=MarketResearch',
+              multi_value: true,
+              ignore_missing: true } },
+          ignore_failure: true } }.with_indifferent_access
+      painless = 'ctx.industry=ctx.industry.stream().flatMap(l -> l.stream()).distinct().sorted().collect(Collectors.toList())'
+      script_processor = { script: { source: painless } }.with_indifferent_access
+      expect(pipeline[:processors]).to eq([country_foreach_processor, industry_foreach_processor, script_processor])
+    end
+  end
+
   context 'applying several processors across several fields' do
     let(:metadata) { use_yaml_fixture('several_several') }
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
