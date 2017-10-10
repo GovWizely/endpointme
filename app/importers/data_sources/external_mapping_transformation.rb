@@ -8,6 +8,7 @@ module DataSources
         json.url_prefix options['url']
         json.multi_value options['multi_value']
         json.ignore_missing true
+        json.ignore_failure true
       end
     end
   end

@@ -5,6 +5,7 @@ module DataSources
         json.field field.to_s
         json.target_field field.to_s
         json.formats [date_format]
+        json.ignore_failure true
       end
     end
   end

@@ -67,7 +67,8 @@ RSpec.describe IngestPipeline do
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
 
     it 'generates a processor to return the value in the new format' do
-      processor = { date: { field: 'bar', target_field: 'bar', formats: ['MM/dd/yyyy'] } }.with_indifferent_access
+      processor = { date: { field: 'bar', target_field: 'bar', formats: ['MM/dd/yyyy'],
+                            ignore_failure: true } }.with_indifferent_access
       expect(pipeline[:processors]).to eq([processor])
     end
   end
@@ -87,7 +88,8 @@ RSpec.describe IngestPipeline do
               json_path: '$..alpha2Code',
               url_prefix: 'https://restcountries.eu/rest/v1/name/{}?fullText=true',
               multi_value: nil,
-              ignore_missing: true } },
+              ignore_missing: true,
+              ignore_failure: true } },
           ignore_failure: true } }.with_indifferent_access
       industry_foreach_processor = {
         foreach: {
@@ -99,7 +101,8 @@ RSpec.describe IngestPipeline do
               json_path: '$..name',
               url_prefix: 'http://im.govwizely.com/api/terms.json?mapped_term={}&source=MarketResearch',
               multi_value: true,
-              ignore_missing: true } },
+              ignore_missing: true,
+              ignore_failure: true } },
           ignore_failure: true } }.with_indifferent_access
       painless = 'ctx.industry=ctx.industry.stream().flatMap(l -> l.stream()).distinct().sorted().collect(Collectors.toList())'
       script_processor = { script: { source: painless } }.with_indifferent_access
@@ -118,7 +121,8 @@ RSpec.describe IngestPipeline do
         field: '_ingest._value', pattern: '^.{4}', replacement: '', ignore_missing: true } },
                                             ignore_failure: true } }.with_indifferent_access
 
-      date_processor = { date: { field: 'blat', target_field: 'blat', formats: ['%m/%d/%Y'] } }.with_indifferent_access
+      date_processor = { date: { field: 'blat', target_field: 'blat', formats: ['%m/%d/%Y'],
+                                 ignore_failure: true } }.with_indifferent_access
 
       expect(pipeline[:processors]).to eq([uppercase_processor,
                                            split_processor,
@@ -141,7 +145,8 @@ RSpec.describe IngestPipeline do
             url_prefix: 'http://im.govwizely.com/api/terms.json?source=TradeEvent::Ustda&mapped_term={}&cache=false',
             json_path: '$..name',
             multi_value: false,
-            ignore_missing: true
+            ignore_missing: true,
+            ignore_failure: true
           } },
         ignore_failure: true } }.with_indifferent_access
 
@@ -154,7 +159,8 @@ RSpec.describe IngestPipeline do
             url_prefix: 'https://restcountries.eu/rest/v1/name/{}?fullText=true',
             json_path: '$..alpha2Code',
             multi_value: nil,
-            ignore_missing: true
+            ignore_missing: true,
+            ignore_failure: true
           } },
         ignore_failure: true } }.with_indifferent_access
 
