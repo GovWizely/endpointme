@@ -18,7 +18,7 @@ Endpointme lets you take pretty much any structured data set and turn it into a 
 
 
 ### Ruby version
-2.3
+2.4
 
 ### Gems
 
@@ -35,7 +35,7 @@ More information about the gem can be found [here](https://github.com/brianmario
 
 ### ElasticSearch
 
-We're using [Elasticsearch](http://www.elasticsearch.org/) (>= 5.6.1) for fulltext search. On a Mac, it's easy to install with [Homebrew](http://mxcl.github.com/homebrew/).
+We're using [Elasticsearch](http://www.elasticsearch.org/) (>= 5.6.3) for fulltext search. On a Mac, it's easy to install with [Homebrew](http://mxcl.github.com/homebrew/).
 
     brew install elasticsearch
 
