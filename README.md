@@ -18,7 +18,7 @@ Endpointme lets you take pretty much any structured data set and turn it into a 
 
 
 ### Ruby version
-2.4
+2.3.5
 
 ### Gems
 
