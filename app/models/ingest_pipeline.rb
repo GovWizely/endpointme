@@ -34,19 +34,26 @@ class IngestPipeline
 
   def generate_all_processors_for_field(json, target_field, meta)
     @array_context = true if meta[:array]
-    meta[:transformations].each do |transformation_entry|
-      json.child! do
-        if meta[:search_path].present?
-          target_field, nested_field = meta[:search_path].split('.')
-          foreach(json, target_field, transformation_entry, nested_field)
-        elsif @array_context
-          foreach(json, target_field, transformation_entry)
-        else
-          generate_processor_for_target_field(target_field, json, transformation_entry)
-        end
+    if meta[:transformations].present?
+      meta[:transformations].each do |transformation_entry|
+        target_field = generate_processor_for_transformation(json, meta, target_field, transformation_entry)
+        coalesce(json, target_field) if array_contains_multi_value_external_mapping(transformation_entry)
       end
-      coalesce(json, target_field) if array_contains_multi_value_external_mapping(transformation_entry)
-    end if meta[:transformations].present?
+    end
+  end
+
+  def generate_processor_for_transformation(json, meta, target_field, transformation_entry)
+    json.child! do
+      if meta[:search_path].present?
+        target_field, nested_field = meta[:search_path].split('.')
+        foreach(json, target_field, transformation_entry, nested_field)
+      elsif @array_context
+        foreach(json, target_field, transformation_entry)
+      else
+        generate_processor_for_target_field(target_field, json, transformation_entry)
+      end
+    end
+    target_field
   end
 
   def array_contains_multi_value_external_mapping(transformation_entry)
