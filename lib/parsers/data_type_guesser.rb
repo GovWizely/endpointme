@@ -7,7 +7,7 @@ module DataTypeGuesser
     data_groups = column_values.group_by(&:class)
     if data_groups[Float]
       numbers_seem_reasonable?(column_values) ? 'float' : 'enum'
-    elsif data_groups[Integer]
+    elsif data_groups[Fixnum]
       numbers_seem_reasonable?(column_values) ? 'integer' : 'enum'
     elsif data_groups[Date]
       'date'
