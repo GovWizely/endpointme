@@ -1,0 +1,24 @@
+---
+_collection_path: "$[*]"
+country:
+  source: country
+  description: Description of country
+  indexed: true
+  plural: true
+  type: enum
+  array: true
+  transformations:
+  - external_mapping:
+      url: https://restcountries.eu/rest/v1/name/{}?fullText=true
+      result_path: "$..alpha2Code"
+industry:
+  copy_from: source_industry
+  indexed: true
+  plural: true
+  type: enum
+  array: true
+  transformations:
+  - external_mapping:
+      url: http://im.govwizely.com/api/terms.json?mapped_term={}&source=MarketResearch
+      result_path: "$..name"
+      multi_value: true

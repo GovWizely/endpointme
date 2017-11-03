@@ -131,7 +131,7 @@ RSpec.describe DataSource do
 
     context 'specifying nested collections' do
       let(:data_source) { DataSource.create(_id: 'test_nested_collections:v1', published: true, version_number: 1, name: 'test', description: 'test nested_collections', api: 'test_nested_collections', data: File.read("#{Rails.root}/spec/fixtures/data_sources/nested_collections.json"), dictionary: '') }
-      let(:dictionary) { DataSources::Metadata.new(File.read("#{Rails.root}/spec/fixtures/data_sources/nested_collections.yaml")).deep_symbolized_yaml }
+      let(:dictionary) { DataSources::Metadata.new(File.read("#{Rails.root}/spec/fixtures/data_sources/nested.yaml")).deep_symbolized_yaml }
 
       before do
         data_source.update(dictionary: dictionary)

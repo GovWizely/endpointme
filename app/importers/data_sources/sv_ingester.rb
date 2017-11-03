@@ -1,7 +1,7 @@
 module DataSources
   class SVIngester < Ingester
-    def initialize(klass, metadata, data, col_sep)
-      super(klass, metadata, data)
+    def initialize(klass, metadata, data, ingest_pipeline_id, col_sep)
+      super(klass, metadata, data, ingest_pipeline_id)
       @col_sep = col_sep
     end
 

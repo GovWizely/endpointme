@@ -13,6 +13,10 @@ module DataSources
 
     def ingest
       delete_api_index
+      ingest_pipeline_id = name_builder('pipelines')
+      ES.client.ingest.delete_pipeline(id: ingest_pipeline_id, ignore: 404)
+      ingest_pipeline = IngestPipeline.new(ingest_pipeline_id, metadata)
+      ES.client.ingest.put_pipeline(id: ingest_pipeline_id, body: ingest_pipeline.pipeline)
       with_api_model do |klass|
         klass.create_index!
         _ingest(klass)
@@ -35,8 +39,12 @@ module DataSources
     private
 
     def delete_api_index
-      ES.client.indices.delete(index: [ES::INDEX_PREFIX, 'api_models', api, "v#{version_number}"].join(':'), ignore: 404)
+      ES.client.indices.delete(index: name_builder('api_models'), ignore: 404)
       DataSource.refresh_index!
+    end
+
+    def name_builder(namespace)
+      [ES::INDEX_PREFIX, namespace, api, "v#{version_number}"].join(':')
     end
 
     def initialize_timestamps
@@ -52,7 +60,7 @@ module DataSources
     end
 
     def _ingest(klass)
-      "DataSources::#{data_format}Ingester".constantize.new(klass, metadata, data).ingest
+      "DataSources::#{data_format}Ingester".constantize.new(klass, metadata, data, name_builder('pipelines')).ingest
       klass.refresh_index!
     end
 

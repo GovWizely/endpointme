@@ -12,7 +12,9 @@ class CachedApiEndpoint
 
   def cached_get(url)
     Rails.cache.fetch(url, expires_in: @ttl_in_seconds) do
+      # :nocov:
       Net::HTTP.get(URI.parse(url))
+      # :nocov:
     end
   end
 

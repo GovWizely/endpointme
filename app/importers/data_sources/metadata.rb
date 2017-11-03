@@ -22,8 +22,7 @@ module DataSources
     def transform(row)
       row_hash = row.to_hash
       raw_hash = row_hash.merge(copied_fields_hash(row_hash)).slice(*entries.keys)
-      xformed_hash = raw_hash.keys.map { |field_sym| [field_sym, transformers[field_sym].transform(raw_hash[field_sym])] }.to_h
-      hash = xformed_hash.merge(constant_values).merge(transformed_collections(row))
+      hash = raw_hash.merge(constant_values).merge(transformed_collections(row))
       group_nested_entries(hash)
     end
 
@@ -42,10 +41,6 @@ module DataSources
       end
     end
 
-    def transformers
-      @transformers ||= entries.map { |field, meta| [field, DataSources::Transformer.new(meta)] }.to_h
-    end
-
     def deep_stringified_yaml
       yaml_dictionary.deep_stringify_keys.to_yaml
     end
@@ -57,12 +52,16 @@ module DataSources
     private
 
     def partition_dictionary
-      nested, top_level_entries = yaml_dictionary.reject { |key, _| key.to_s.start_with?('_') }
-                                                 .partition { |_, v| v.key?(:_collection_path) }
-                                                 .map(&:to_h)
+      nested, top_level_entries = yaml_dictionary
+                                  .reject { |key, _| key.to_s.start_with?('_') }
+                                  .partition { |_, v| v.key?(:_collection_path) }
+                                  .map(&:to_h)
       nested_entries = nested.map do |namespace, metadata|
-        metadata.except(:_collection_path).each { |field, hash_entry| hash_entry[:search_path] = [namespace, field].join('.') }
+        metadata.except(:_collection_path).each do |field, hash_entry|
+          hash_entry[:search_path] = [namespace, field].join('.')
+        end
       end
+
       nested_hash = nested_entries.reduce(:merge) || {}
       [nested_hash, top_level_entries]
     end
