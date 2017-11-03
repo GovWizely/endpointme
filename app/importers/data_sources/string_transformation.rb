@@ -3,7 +3,6 @@ module DataSources
     SUPPORTED_INSTANCE_METHODS = %i(downcase from gsub split upcase)
 
     class << self
-
       def generate_processor(json, field, method, args = nil)
         raise ArgumentError unless SUPPORTED_INSTANCE_METHODS.include?(method.to_sym)
         args.present? ? send(method, json, field.to_s, args) : send(method, json, field.to_s)

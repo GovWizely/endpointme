@@ -1,5 +1,4 @@
 class IngestPipeline
-
   def initialize(name, metadata)
     @name = name
     @metadata = metadata
@@ -55,8 +54,8 @@ class IngestPipeline
   end
 
   def coalesce(json, target_field)
-    source = "ctx.#{target_field}=ctx.#{target_field}.stream().flatMap(l -> l.stream())."+
-      "distinct().sorted().collect(Collectors.toList())"
+    source = "ctx.#{target_field}=ctx.#{target_field}.stream().flatMap(l -> l.stream())."\
+             'distinct().sorted().collect(Collectors.toList())'
     json.child! do
       json.script do
         json.source source
@@ -101,5 +100,4 @@ class IngestPipeline
   rescue NameError
     false
   end
-
 end

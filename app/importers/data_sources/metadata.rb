@@ -53,9 +53,9 @@ module DataSources
 
     def partition_dictionary
       nested, top_level_entries = yaml_dictionary
-                                    .reject { |key, _| key.to_s.start_with?('_') }
-                                    .partition { |_, v| v.key?(:_collection_path) }
-                                    .map(&:to_h)
+                                  .reject { |key, _| key.to_s.start_with?('_') }
+                                  .partition { |_, v| v.key?(:_collection_path) }
+                                  .map(&:to_h)
       nested_entries = nested.map do |namespace, metadata|
         metadata.except(:_collection_path).each do |field, hash_entry|
           hash_entry[:search_path] = [namespace, field].join('.')
