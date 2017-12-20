@@ -9,7 +9,7 @@ end
 
 gem 'rails', '~> 5.1'
 
-gem 'airbrake-ruby', '~> 2.0'
+gem 'airbrake-ruby'
 gem 'charlock_holmes', '0.7.4'
 gem 'elasticsearch'
 gem 'elasticsearch-model', github: 'elastic/elasticsearch-rails', branch: '5.x'
