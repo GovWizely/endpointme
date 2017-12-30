@@ -11,18 +11,18 @@ class DataSource
   validates :name, presence: true
   attribute :api, String, mapping: { type: 'keyword' }
   validates :api, presence: true, format: { with: /\A[a-z0-9_]+\z/ }
-  attribute :url, String, mapping: { type: 'text', index: 'no' }
+  attribute :url, String, mapping: { type: 'text', index: false }
   attribute :description, String, mapping: { type: 'text', analyzer: 'english' }
-  attribute :dictionary, String, mapping: { type: 'text', index: 'no' }
-  attribute :data, String, mapping: { type: 'text', index: 'no' }
+  attribute :dictionary, String, mapping: { type: 'text', index: false }
+  attribute :data, String, mapping: { type: 'text', index: false }
   attribute :version_number, Integer
   validates :version_number, numericality: true, presence: true
   attribute :published, Boolean
   attribute :consolidated, Boolean
-  attribute :message_digest, String, mapping: { type: 'text', index: 'no' }
+  attribute :message_digest, String, mapping: { type: 'text', index: false }
   attribute :data_changed_at, DateTime
   attribute :data_imported_at, DateTime
-  attribute :s3_bucket_name, String, mapping: { type: 'text', index: 'no' }
+  attribute :s3_bucket_name, String, mapping: { type: 'text', index: false }
 
   before_save :build_dictionary, :initialize_timestamps
   after_update :refresh_metadata
