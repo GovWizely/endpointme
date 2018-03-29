@@ -16,12 +16,11 @@ module DataSources
       end
 
       def from(json, field, args)
-        json.gsub do
-          json.field field
-          json.pattern "^.{#{args[0]}}"
-          json.replacement ''
-          json.ignore_missing true
-        end
+        gsub(json, field, ["^.{#{args[0]}}", ''])
+      end
+
+      def left(json, field, args)
+        gsub(json, field, ["^(.{#{args[0]}}).*$", '$1'])
       end
 
       def gsub(json, field, args)

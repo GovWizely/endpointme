@@ -62,6 +62,17 @@ RSpec.describe IngestPipeline do
     end
   end
 
+  context 'select leftmost N characters' do
+    let(:metadata) { use_yaml_fixture('left') }
+    let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
+
+    it 'generates an appropriate gsub processor' do
+      processor = { gsub: { field: 'bar', pattern: '^(.{2}).*$', replacement: '$1',
+                            ignore_missing: true } }.with_indifferent_access
+      expect(pipeline[:processors]).to eq([processor])
+    end
+  end
+
   context 'reformatting non-standard date strings' do
     let(:metadata) { use_yaml_fixture('reformat_date') }
     let(:pipeline) { IngestPipeline.new('test:endpointme:pipelines:pipeline_name:v1', metadata).pipeline }
