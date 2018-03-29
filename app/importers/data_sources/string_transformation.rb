@@ -1,6 +1,6 @@
 module DataSources
   class StringTransformation
-    SUPPORTED_INSTANCE_METHODS = %i(downcase from gsub split upcase)
+    SUPPORTED_INSTANCE_METHODS = %i(downcase from gsub left split upcase)
 
     class << self
       def generate_processor(json, field, method, args = nil)
