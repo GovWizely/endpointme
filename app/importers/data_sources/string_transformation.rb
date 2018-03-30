@@ -1,6 +1,6 @@
 module DataSources
   class StringTransformation
-    SUPPORTED_INSTANCE_METHODS = %i(downcase from gsub split upcase)
+    SUPPORTED_INSTANCE_METHODS = %i[downcase from gsub left split upcase]
 
     class << self
       def generate_processor(json, field, method, args = nil)
@@ -16,12 +16,11 @@ module DataSources
       end
 
       def from(json, field, args)
-        json.gsub do
-          json.field field
-          json.pattern "^.{#{args[0]}}"
-          json.replacement ''
-          json.ignore_missing true
-        end
+        gsub(json, field, ["^.{#{args[0]}}", ''])
+      end
+
+      def left(json, field, args)
+        gsub(json, field, ["^(.{#{args[0]}}).*$", '$1'])
       end
 
       def gsub(json, field, args)
