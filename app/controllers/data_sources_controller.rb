@@ -1,6 +1,6 @@
 class DataSourcesController < ApplicationController
   before_action :set_data_source, only: [:show, :update, :destroy]
-  COMMON_PARAMS = %i(name api description url version_number consolidated)
+  COMMON_PARAMS = %i[name api description url version_number consolidated]
   rescue_from Elasticsearch::Transport::Transport::Errors::Conflict, with: :api_not_unique
   rescue_from Elasticsearch::Persistence::Repository::DocumentNotFound, with: :not_found
 
