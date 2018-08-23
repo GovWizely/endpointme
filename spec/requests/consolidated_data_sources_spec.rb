@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe 'Consolidated DataSources', type: :request do
   let(:create_params_template) do
     {
-      s3_bucket_name: 'whatevs',
       version_number: '1',
       published:      true }
   end

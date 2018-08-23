@@ -8,7 +8,6 @@ RSpec.describe 'DataSources', type: :request do
       description:    'success_cases',
       url:            'https://s3.amazonaws.com/search-api-static-files/screening_list/feed2.csv',
       version_number: '1',
-      s3_bucket_name: 'whatevs',
       published:      true }
   end
 
