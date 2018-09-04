@@ -32,7 +32,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '~> 3.0.5'
+  gem 'listen'
   gem 'rb-readline'
   gem 'rubocop', '0.39.0', require: false
 end
