@@ -94,7 +94,7 @@ GEM
     erubi (1.7.1)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.18)
+    ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     hashdiff (0.3.7)
@@ -109,9 +109,10 @@ GEM
     json (2.1.0)
     jsonpath (0.8.10)
       multi_json
-    listen (3.0.8)
+    listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
     loofah (2.2.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -166,7 +167,7 @@ GEM
     rainbow (2.2.2)
       rake
     rake (12.3.1)
-    rb-fsevent (0.10.2)
+    rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rb-readline (0.5.5)
@@ -205,6 +206,7 @@ GEM
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-ole (1.2.12.1)
     ruby-progressbar (1.9.0)
+    ruby_dep (1.5.0)
     rubyzip (1.2.1)
     safe_yaml (1.0.4)
     sanitize (4.6.6)
@@ -260,7 +262,7 @@ DEPENDENCIES
   htmlentities
   jbuilder
   jsonpath
-  listen (~> 3.0.5)
+  listen
   puma
   rails (~> 5.2)
   rb-readline
@@ -280,4 +282,4 @@ RUBY VERSION
    ruby 2.3.4p301
 
 BUNDLED WITH
-   1.16.1
+   1.16.4
