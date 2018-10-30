@@ -37,6 +37,7 @@ class DataSourcesController < ApplicationController
   # PATCH/PUT /data_sources/1
   def update
     attributes = params.require(:data_source).permit(COMMON_PARAMS + %i(dictionary published))
+    attributes[:published] = true if attributes[:published] == '1'
     attributes[:dictionary] = symbolized_yaml(attributes[:dictionary]) unless @data_source.is_consolidated?
     @data_source.name = attributes['name']
     if @data_source.update(attributes.to_h)
