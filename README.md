@@ -35,7 +35,7 @@ More information about the gem can be found [here](https://github.com/brianmario
 
 ### ElasticSearch
 
-We're using [Elasticsearch](http://www.elasticsearch.org/) (>= 5.6.3) for fulltext search. On a Mac, it's easy to install with [Homebrew](http://mxcl.github.com/homebrew/).
+We're using [Elasticsearch](http://www.elasticsearch.org/) (>= 6.6.0) for fulltext search. On a Mac, it's easy to install with [Homebrew](http://mxcl.github.com/homebrew/).
 
     brew install elasticsearch
 
